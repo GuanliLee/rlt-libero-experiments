@@ -1,0 +1,16 @@
+{
+  "episode": 10,
+  "actor_updates": 320,
+  "critic_updates": 640,
+  "bc_exact_initial": true,
+  "changed_actor_tensors": [
+    "model.net.0.weight",
+    "model.net.0.bias",
+    "model.net.2.weight",
+    "model.net.2.bias",
+    "model.net.4.weight",
+    "model.net.4.bias"
+  ],
+  "token_input_weight_max_change": 0.00285652591757999,
+  "reference_weight_max_change": 0.002405245730745433
+}

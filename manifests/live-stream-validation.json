@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "streams": {
+    "baseline": {
+      "frames": 16,
+      "size": [
+        512,
+        256
+      ],
+      "observed_fps": 12.112987231973095
+    },
+    "rlt": {
+      "frames": 16,
+      "size": [
+        512,
+        256
+      ],
+      "observed_fps": 16.607392116718337
+    }
+  },
+  "final_state": {
+    "ready": true,
+    "busy": false,
+    "message": "对照完成：基础 VLA 1/1，RLT_a 1/1。可以更换任务或初始状态再次运行。",
+    "baseline": {
+      "status": "完成",
+      "phase": "执行动作",
+      "success": true,
+      "initial": 0,
+      "episode": 1,
+      "steps": 126,
+      "seq": 127,
+      "vla_ms": 51.538853032980114,
+      "rlt_ms": null,
+      "completed": 1,
+      "successes": 1
+    },
+    "rlt": {
+      "status": "完成",
+      "phase": "执行动作",
+      "success": true,
+      "initial": 0,
+      "episode": 1,
+      "steps": 125,
+      "seq": 126,
+      "vla_ms": 49.842535983771086,
+      "rlt_ms": 0.5530709750019014,
+      "delta_mean_abs": 0.05216793343424797,
+      "token_shape": [
+        1,
+        256
+      ],
+      "completed": 1,
+      "successes": 1
+    },
+    "output": "/opt/shared_assets/8t/lgl/RLT/results/comparison_20260908_110529_818061"
+  }
+}

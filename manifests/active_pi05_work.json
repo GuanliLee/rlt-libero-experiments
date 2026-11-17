@@ -1,0 +1,65 @@
+{
+  "updated": "2026-09-09T15:44:57.382051+08:00",
+  "current_task": "Use published direct action-chunk Actor, no residual connection; train and evaluate double moka pot task8.",
+  "root": "/opt/shared_assets/8t/lgl/RLT",
+  "openpi_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "completed": [
+    "official OpenPI clone",
+    "base/libero GCS inventories pinned by generation",
+    "training monitor implementation and 5 CPU tests",
+    "documented execution plan and synthetic inference checker syntax check",
+    "LIBERO simulation transport probe: task7 initial0, two RGB256 cameras and state8; no policy used",
+    "Fixed evaluator ndarray action transport",
+    "Started automatic pipeline, gated by environment and verified weights",
+    "Full pi05_libero checkpoint download and CRC32C verification",
+    "OpenPI isolated environment installed",
+    "JAX GPU check",
+    "Frozen pi05_libero synthetic inference",
+    "Pi-specific worker quaternion convention checked on five known rotations",
+    "30-case pi05_libero baseline complete:30/30 success; videos and HTTP playback checked",
+    "libero_10 validation100cases complete94/100; failure report and100videos verified"
+  ],
+  "running_sessions": {
+    "45668": "Direct action B: exact imitation initialization, online40, two-seed validation and real BC control",
+    "65556": "Read-only viewer B"
+  },
+  "status": "A BC initialization10/20 versus pi15/20; stopped before RL. B uses the same direct MLP with trainable identity weights, float64, reference dropout0; no residual addition. B probe running.",
+  "files": [
+    "scripts/env_openpi.sh",
+    "scripts/download_openpi_checkpoint.py",
+    "scripts/check_pi05_inference.py",
+    "scripts/rlt_training_monitor.py",
+    "scripts/test_rlt_training_monitor.py",
+    "docs/pi05_rlt_execution_plan.zh-CN.md",
+    "scripts/evaluate_pi05_baseline.py",
+    "scripts/run_pi05_baseline_pipeline.py",
+    "manifests/pi05_baseline_pipeline.json",
+    "scripts/pi05_features.py",
+    "scripts/pi05_rlt_networks.py",
+    "scripts/fit_pi05_moka_encoder.py",
+    "scripts/train_pi05_moka_rlt.py",
+    "scripts/test_pi05_moka_rlt.py",
+    "scripts/run_pi05_moka_optimization.py"
+  ],
+  "previous_targeted_run": "Complete:45 train episodes10398steps; all-task baseline21/30 release22 BC21 candidate22. No improvement on trainedtasks0,5,6. Paired examples page exists.",
+  "reserved_test": "40-49 untouched. New pi benchmark should not run official full50 defaults. Official pi default replan5/horizon300 differs oldQwen8/320.",
+  "next": [
+    "Check BC closed-loop fidelity before RL",
+    "Compare direct Actor with pi and actual matched BC using seeds42,7",
+    "Freeze candidate before reserved final test initials40-49 seeds123,456"
+  ],
+  "prior_residual_result": {
+    "seed42": {
+      "base": 6,
+      "candidate": 9,
+      "n": 10
+    },
+    "seed7": {
+      "base": 9,
+      "candidate": 6,
+      "n": 10
+    },
+    "conclusion": "No stable improvement"
+  },
+  "current_result": "/opt/shared_assets/8t/lgl/RLT/results/pi05_moka_direct_20260909_b"
+}

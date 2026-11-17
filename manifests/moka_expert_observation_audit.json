@@ -1,0 +1,24 @@
+[
+  {
+    "frame": 0,
+    "state_max_error": 0.015554733469407105,
+    "camera_mae": 2.7470296223958335,
+    "wrist_mae": 8.503580729166666
+  },
+  {
+    "frame": 100,
+    "state_max_error": 0.0024204791938460257,
+    "camera_mae": 2.8804117838541665,
+    "wrist_mae": 4.259134928385417
+  },
+  {
+    "frame": 300,
+    "state_max_error": 0.0020471015774342627,
+    "camera_mae": 2.1932169596354165,
+    "wrist_mae": 0.96795654296875
+  },
+  {
+    "action_alignment_step": 100,
+    "next_eef_error": 0.009788753533267032
+  }
+]

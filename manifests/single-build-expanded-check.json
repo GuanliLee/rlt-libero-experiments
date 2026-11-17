@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-08T17:08:25.629776+08:00",
+  "status": "not_fully_equivalent",
+  "original_evaluation": "optimization_v2_20260908_beta3/validation_001_ep00100",
+  "single_build_evaluation": "pilot_blend_validation_20260908",
+  "paired_baseline_episodes": 30,
+  "success_outcomes_equal": true,
+  "complete_trajectory_equivalence_disproved": true,
+  "difference": {
+    "task_id": 9,
+    "initial_state": 31,
+    "original_action_steps": 131,
+    "single_build_action_steps": 127
+  },
+  "decision": "Existing single-build cohorts remain internally paired exploratory validation. Use original double-build environment for final test and subsequent new variants; do not pool step statistics across variants.",
+  "worker_sha256": "a1b66025f55f3fd4574ea676b29ebca311a1b5598dff1fd44a4b09305a2ce623"
+}

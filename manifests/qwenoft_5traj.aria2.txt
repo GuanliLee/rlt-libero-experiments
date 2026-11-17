@@ -1,0 +1,8 @@
+https://hf-mirror.com/AlphaBrainGroup/qwenoft-5traj-libero-goal/resolve/91ea0817f556bf50d64008187519de19458f8188/model.safetensors
+  dir=/opt/shared_assets/8t/lgl/RLT/checkpoints/qwenoft_5traj
+  out=model.safetensors
+  checksum=sha-256=02513eb93928537272e08a112ada6017a65b942c95d0006f270de8f04df39077
+https://hf-mirror.com/AlphaBrainGroup/qwenoft-5traj-libero-goal/resolve/91ea0817f556bf50d64008187519de19458f8188/qwen_pretrained/tokenizer.json
+  dir=/opt/shared_assets/8t/lgl/RLT/checkpoints/qwenoft_5traj/qwen_pretrained
+  out=tokenizer.json
+  checksum=sha-256=5eee858c5123a4279c3e1f7b81247343f356ac767940b2692a928ad929543214

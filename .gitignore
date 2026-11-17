@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+envs/
+cache/
+checkpoints/
+datasets/
+src/LIBERO/
+src/openpi/
+src/AlphaBrain/
+config/libero/config.yaml
+results/**/*.pt
+results/**/*.pth
+results/**/*.npz
+results/**/*.safetensors
+results/**/*.ckpt

@@ -1,0 +1,33 @@
+{
+  "python": "3.11.15",
+  "python_executable": "/opt/shared_assets/8t/lgl/RLT/envs/libero/bin/python",
+  "packages": {
+    "libero": "0.1.0",
+    "numpy": "1.24.4",
+    "torch": "2.5.1+cpu",
+    "robosuite": "1.4.0",
+    "mujoco": "2.3.7",
+    "numba": "0.59.1",
+    "opencv-python": "4.6.0.66",
+    "bddl": "1.0.1",
+    "gym": "0.25.2",
+    "termcolor": "2.4.0"
+  },
+  "environment": {
+    "LIBERO_HOME": "/opt/shared_assets/8t/lgl/RLT/src/LIBERO",
+    "LIBERO_PYTHON": "/opt/shared_assets/8t/lgl/RLT/envs/libero/bin/python",
+    "LIBERO_CONFIG_PATH": "/opt/shared_assets/8t/lgl/RLT/config/libero",
+    "MUJOCO_GL": "egl",
+    "PYOPENGL_PLATFORM": "egl",
+    "MUJOCO_EGL_DEVICE_ID": "0",
+    "NUMBA_CACHE_DIR": "/opt/shared_assets/8t/lgl/RLT/cache/numba",
+    "MPLCONFIGDIR": "/opt/shared_assets/8t/lgl/RLT/cache/matplotlib",
+    "XDG_CACHE_HOME": "/opt/shared_assets/8t/lgl/RLT/cache/xdg"
+  },
+  "validation": {
+    "simulation_proxy_test": "outputs/libero_smoke/result.json",
+    "dependency_check": "uv pip check: all 59 packages compatible",
+    "source_integrity": "manifests/libero-source.json"
+  },
+  "training_demonstrations_needed_for_inference": false
+}

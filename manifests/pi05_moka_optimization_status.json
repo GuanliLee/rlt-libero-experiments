@@ -1,0 +1,26 @@
+{
+  "stage": "complete",
+  "updated": "2026-09-09T15:15:02.462470+08:00",
+  "status": "complete",
+  "result": "/opt/shared_assets/8t/lgl/RLT/results/pi05_moka_rlt_20260909_a",
+  "report": {
+    "status": "complete",
+    "kind": "experimental_compact_pi_residual_rlt",
+    "baseline_successes": 6,
+    "best_validation_successes": 9,
+    "validation_episodes": 10,
+    "best_episode": 40,
+    "collected_training_episodes": 60,
+    "warmup_episodes": 30,
+    "replay_transitions": 8385,
+    "critic_mc_updates": 500,
+    "critic_td_updates": 3840,
+    "actor_updates": 1920,
+    "bc_updates": 1920,
+    "bc_only_exact_baseline": true,
+    "wall_seconds": 1643.442363493028,
+    "test_initials_used": false,
+    "full_suite_non_target_policy": "Original pi unchanged; task8-specific routing",
+    "note": "Validation-selected candidate only, not proof of stable improvement or official RLT reproduction."
+  }
+}

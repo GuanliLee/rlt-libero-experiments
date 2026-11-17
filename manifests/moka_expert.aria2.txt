@@ -1,0 +1,4 @@
+https://hf-mirror.com/datasets/yifengzhu-hf/LIBERO-datasets/resolve/f13aa24a3da8c43c7225569f28c562979fa0e35a/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5
+  dir=/opt/shared_assets/8t/lgl/RLT/datasets/libero/libero_10
+  out=KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5
+  checksum=sha-256=e329bb21a8ded3457854faf6a23513c90cb4b34f0e40f3f4e9e70451fc9ba504

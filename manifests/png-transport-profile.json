@@ -1,0 +1,146 @@
+{
+  "scope": "CPU-only encoding of previously saved LIBERO RGB observations; no simulator or GPU inference started",
+  "python": "3.11.15",
+  "pillow": "11.3.0",
+  "numpy": "1.24.4",
+  "upstream_commit": "604924beb77b04b0da49326dfae6ea423a27d28a",
+  "upstream_worker": "src/AlphaBrain/AlphaBrain/training/reinforcement_learning/envs/libero_env_worker.py",
+  "upstream_worker_sha256": "9c8c22447517ee7dd9322d54cd116a0299a9f0da78b929c6cc549c9aa52deb09",
+  "wrapper": "scripts/libero_worker_fast_png.py",
+  "wrapper_sha256": "0f8fa60a3c729f3302fe81bbcbd4a1b1b27356e1f8c4df4dc845ad2055ad248d",
+  "inputs": {
+    "primary": {
+      "path": "outputs/libero_smoke/primary_initial.png",
+      "sha256": "3cc31f4fca686f6d49cd238e223439bdd6a55cc08c13167ad85bc4e515500c92",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8"
+    },
+    "wrist": {
+      "path": "outputs/libero_smoke/wrist_initial.png",
+      "sha256": "d0373e16868d1a55f598a8c88911b58e9074f91188fab462342b08f605a77d95",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8"
+    }
+  },
+  "validation": {
+    "default_png": {
+      "primary": {
+        "pixel_identical_to_input": true,
+        "format": "PNG",
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      },
+      "wrist": {
+        "pixel_identical_to_input": true,
+        "format": "PNG",
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      }
+    },
+    "level1_png": {
+      "primary": {
+        "pixel_identical_to_input": true,
+        "format": "PNG",
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      },
+      "wrist": {
+        "pixel_identical_to_input": true,
+        "format": "PNG",
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      }
+    }
+  },
+  "warmup_rounds": 10,
+  "measured_rounds": 100,
+  "measurement_order": "default and level1 alternate first place each round; each round encodes primary then wrist",
+  "output_bytes": {
+    "default_png": {
+      "primary": 60536,
+      "wrist": 60897
+    },
+    "level1_png": {
+      "primary": 70006,
+      "wrist": 67701
+    }
+  },
+  "timing": {
+    "default_png": {
+      "primary": {
+        "mean_ms": 9.63296813,
+        "median_ms": 9.577378,
+        "p90_ms": 9.6846218,
+        "min_ms": 9.507686,
+        "max_ms": 11.261772
+      },
+      "wrist": {
+        "mean_ms": 7.78976984,
+        "median_ms": 7.7540805,
+        "p90_ms": 7.8652807,
+        "min_ms": 7.713954,
+        "max_ms": 9.209679
+      },
+      "pair": {
+        "mean_ms": 17.42397152,
+        "median_ms": 17.334574500000002,
+        "p90_ms": 17.530743,
+        "min_ms": 17.228413,
+        "max_ms": 19.576329
+      }
+    },
+    "level1_png": {
+      "primary": {
+        "mean_ms": 2.54621024,
+        "median_ms": 2.5368554999999997,
+        "p90_ms": 2.5743599,
+        "min_ms": 2.514984,
+        "max_ms": 2.763035
+      },
+      "wrist": {
+        "mean_ms": 2.32985262,
+        "median_ms": 2.325714,
+        "p90_ms": 2.362134,
+        "min_ms": 2.302981,
+        "max_ms": 2.414513
+      },
+      "pair": {
+        "mean_ms": 4.87704891,
+        "median_ms": 4.865976,
+        "p90_ms": 4.9371558,
+        "min_ms": 4.824067,
+        "max_ms": 5.181326
+      }
+    }
+  },
+  "pair_median_speedup": 3.5624044384929157,
+  "pair_median_ms_saved": 12.468598500000002,
+  "limitation": "These CPU microbenchmarks measure two saved frames, not end-to-end browser FPS or live simulation throughput.",
+  "wrapper_startup_check": {
+    "method": "Execute wrapper with stdin at EOF; imports the pinned worker and returns without creating an environment",
+    "exit_code": 0,
+    "stdout_bytes": 0,
+    "stderr_bytes": 673,
+    "simulation_created": false
+  }
+}

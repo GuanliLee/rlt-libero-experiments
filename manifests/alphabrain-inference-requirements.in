@@ -1,0 +1,13 @@
+# Install torch==2.7.1+cu128 and torchvision==0.22.1+cu128 first using
+# --index-url https://download.pytorch.org/whl/cu128, then this file.
+# Only QwenOFT + RLT_a inference requirements; no training dependency stack.
+transformers==4.57.0
+accelerate==1.5.2
+numpy==1.26.4
+qwen-vl-utils==0.0.14
+omegaconf==2.3.0
+rich
+msgpack
+imageio
+imageio-ffmpeg
+setuptools==80.9.0

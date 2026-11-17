@@ -1,0 +1,92 @@
+{
+  "stage": "no_validation_gain",
+  "updated": "2026-09-09T16:26:55.971254+08:00",
+  "comparisons": [
+    {
+      "name": "B",
+      "checkpoint": "/opt/shared_assets/8t/lgl/RLT/results/pi05_moka_direct_20260909_b/best.pt",
+      "successes": 15,
+      "episodes": 20,
+      "by_seed": {
+        "42": 6,
+        "7": 9
+      },
+      "wins": [],
+      "losses": []
+    },
+    {
+      "name": "C",
+      "checkpoint": "/opt/shared_assets/8t/lgl/RLT/results/pi05_moka_direct_20260909_c/policy.pt",
+      "successes": 0,
+      "episodes": 20,
+      "by_seed": {
+        "42": 0,
+        "7": 0
+      },
+      "wins": [],
+      "losses": [
+        [
+          42,
+          32
+        ],
+        [
+          42,
+          33
+        ],
+        [
+          42,
+          34
+        ],
+        [
+          42,
+          35
+        ],
+        [
+          42,
+          36
+        ],
+        [
+          42,
+          37
+        ],
+        [
+          7,
+          30
+        ],
+        [
+          7,
+          31
+        ],
+        [
+          7,
+          32
+        ],
+        [
+          7,
+          33
+        ],
+        [
+          7,
+          34
+        ],
+        [
+          7,
+          35
+        ],
+        [
+          7,
+          36
+        ],
+        [
+          7,
+          38
+        ],
+        [
+          7,
+          39
+        ]
+      ]
+    }
+  ],
+  "final_test_used": false
+}

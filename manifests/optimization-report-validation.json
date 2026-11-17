@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "exact_0_0": true,
+    "exact_1_0": true,
+    "exact_6_0": true,
+    "exact_5_1": true,
+    "exact_10_10": true,
+    "exact_0_6": true,
+    "paired_four_outcomes_and_successful_steps": true,
+    "bootstrap_deterministic_with_two_pairs_per_task": true,
+    "bootstrap_refuses_singleton_and_missing_task": true,
+    "unpaired_episode_excluded": true,
+    "smoke_artifact_integration": true
+  },
+  "script_sha256": "c62c298aeb0c21fea031f21dcba056f29811fe43bd3d47badffb6f6bd85cab54"
+}

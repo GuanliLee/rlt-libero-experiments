@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "repo": "yifengzhu-hf/LIBERO-datasets",
+  "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "file": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5",
+  "size": 2061429892,
+  "expected_sha256": "e329bb21a8ded3457854faf6a23513c90cb4b34f0e40f3f4e9e70451fc9ba504",
+  "local_path": "/opt/shared_assets/8t/lgl/RLT/datasets/libero/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5",
+  "training_use": false,
+  "sha256": "e329bb21a8ded3457854faf6a23513c90cb4b34f0e40f3f4e9e70451fc9ba504"
+}

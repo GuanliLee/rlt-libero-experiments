@@ -1,0 +1,7 @@
+{
+  "path": "/opt/shared_assets/8t/lgl/RLT/cache/wheels/torch-2.7.1+cu128-cp311-cp311-manylinux_2_28_x86_64.whl",
+  "size_bytes": 1039389795,
+  "sha256": "c301dc280458afd95450af794924c98fe07522dd148ff384739b810e3e3179f2",
+  "source": "https://download.pytorch.org/whl/cu128/torch-2.7.1%2Bcu128-cp311-cp311-manylinux_2_28_x86_64.whl",
+  "checksum_source": "official wheel response x-amz-meta-checksum-sha256"
+}

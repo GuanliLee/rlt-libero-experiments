@@ -1,0 +1,182 @@
+[
+  {
+    "demo": 0,
+    "steps": 457,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 1,
+    "steps": 439,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 2,
+    "steps": 388,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 3,
+    "steps": 429,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 4,
+    "steps": 421,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 5,
+    "steps": 378,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 6,
+    "steps": 420,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 7,
+    "steps": 367,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 8,
+    "steps": 373,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 9,
+    "steps": 383,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 10,
+    "steps": 388,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 11,
+    "steps": 407,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 12,
+    "steps": 359,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 13,
+    "steps": 377,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 14,
+    "steps": 385,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 15,
+    "steps": 375,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 16,
+    "steps": 427,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 17,
+    "steps": 403,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 18,
+    "steps": 389,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 19,
+    "steps": 429,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 20,
+    "steps": 363,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 21,
+    "steps": 459,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 22,
+    "steps": 392,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 23,
+    "steps": 410,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 24,
+    "steps": 383,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 25,
+    "steps": 455,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 26,
+    "steps": 409,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 27,
+    "steps": 436,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 28,
+    "steps": 505,
+    "success_reward": 1,
+    "last_done": 1
+  },
+  {
+    "demo": 29,
+    "steps": 408,
+    "success_reward": 1,
+    "last_done": 1
+  }
+]

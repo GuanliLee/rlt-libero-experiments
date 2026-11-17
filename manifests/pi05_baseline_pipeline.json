@@ -1,0 +1,15 @@
+{
+  "stage": "complete",
+  "updated": "2026-09-09T13:51:03.693837+08:00",
+  "status": "complete",
+  "validation": "/opt/shared_assets/8t/lgl/RLT/results/pi05_libero_validation_20260909_134344",
+  "probe": "/opt/shared_assets/8t/lgl/RLT/results/pi05_libero_probe_20260909_134344",
+  "counts": {
+    "baseline": {
+      "successes": 30,
+      "episodes": 30
+    }
+  },
+  "training_updates": 0,
+  "note": "Frozen pi05 baseline only. Pi RLT training has not started. Test initials 40-49 untouched."
+}

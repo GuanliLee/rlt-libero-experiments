@@ -1,0 +1,38 @@
+{
+  "split": "validation",
+  "initials": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "seeds": [
+    42,
+    7
+  ],
+  "policies": [
+    "baseline"
+  ],
+  "checkpoint": "results/pi05_moka_direct_dense_interp_a025_20260910/policy.pt",
+  "checkpoint_sha256": "1f4a1985281e558e422a046acf4e0ee214cd848c3c2a0f7172ab4c5e7a86c700",
+  "training_episode": 60,
+  "checkpoint_offline_updates": 0,
+  "training_updates": 0,
+  "max_steps": 520,
+  "replan_steps": 5,
+  "action_form": "Direct complete 5x7 action chunk; no residual addition",
+  "q_threshold": 0.0,
+  "source_sha256": {
+    "/home/ligl/RLT/scripts/evaluate_pi05_direct.py": "f42578e640ff1655835c67bbeb2eb509a3b586554ec95f79d68d80151aa40c61",
+    "/home/ligl/RLT/scripts/pi05_direct_networks.py": "6b22656286041ef019855bd44e52426cf3ee6c3707e49633197fc041e096cfc3",
+    "/home/ligl/RLT/scripts/pi05_features.py": "bd923f9b1ab02f434338f9202096e2970cba457e72f62455c8a2373ebaecbd2f",
+    "/home/ligl/RLT/scripts/libero_worker_pi05.py": "fd9bebdcd3aaf158ef1d1cb706f70b035a420092db2d3b7f7987208d7590669b",
+    "/home/ligl/RLT/src/AlphaBrain/AlphaBrain/training/reinforcement_learning/algos/RLT_a/action_token_actor_critic.py": "10ff42bf2e52d7a3074a00cb1db026640728fea91f2342d6da68d9debdb02ad0"
+  }
+}

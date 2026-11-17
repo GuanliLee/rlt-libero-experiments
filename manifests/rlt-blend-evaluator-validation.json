@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "no_gpu_policy_evaluation": true,
+  "alpha_checks": {
+    "candidate_alpha0.25": "exact_formula_frozen_and_original_episode_routing_passed",
+    "candidate_alpha0.5": "exact_formula_frozen_and_original_episode_routing_passed",
+    "candidate": "exact_formula_frozen_and_original_episode_routing_passed",
+    "bc_only_alpha0.25": "exact_formula_frozen_and_original_episode_routing_passed",
+    "bc_only_alpha0.5": "exact_formula_frozen_and_original_episode_routing_passed",
+    "bc_only": "exact_formula_frozen_and_original_episode_routing_passed"
+  },
+  "original_episode_exercised_with_cpu_mock_environment": true,
+  "test_rejects_unmatched_alpha_bc": true,
+  "alpha1_default_backwards_compatible": true,
+  "pilot_source_identity_unchanged": true,
+  "persistent_helper_identity_unchanged": true,
+  "source_sha256": {
+    "/opt/shared_assets/8t/lgl/RLT/scripts/evaluate_rlt_blends.py": "b72ac8ce3020324986aff2399e517a0ef7f03b69080e17a288aa3b6794f025d0",
+    "/opt/shared_assets/8t/lgl/RLT/scripts/persistent_libero.py": "76bc58a7a4fcb1848312ed17a9b2234837d9c6a19d49178d2bbcde8364f3bd30"
+  },
+  "v2_embedded_source_and_bc_checkpoint_guards": true,
+  "v2_fingerprint_dependency_count": 10
+}

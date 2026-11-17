@@ -1,0 +1,18 @@
+{
+  "source_metrics": "/opt/shared_assets/8t/lgl/RLT/checkpoints/rlt_a/metrics.json",
+  "metrics_sha256": "5f1cf09c352c8113ade8d433a11bbcc2d9cb83db96d257228b2f3357e66f662e",
+  "total_records": 400,
+  "zero_interaction_and_zero_actor_loss_records": 353,
+  "zero_interval": [
+    48,
+    400
+  ],
+  "last_record_with_new_interaction": 47,
+  "total_environment_steps_final": 2497595,
+  "interpretation": "Release logs show 353 records without new experience or reported Actor loss. Combined with current-source update-scheduling reproducer this is concerning; historical full configuration/logs are not available, so the original cause is unproven.",
+  "previous_local_comparison_initial_states": [
+    0,
+    1
+  ],
+  "held_out_scope": "Initials30-49 reserved against new local optimization only. Original released checkpoint training exposure is unknown."
+}

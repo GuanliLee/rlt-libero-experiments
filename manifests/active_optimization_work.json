@@ -1,0 +1,33 @@
+{
+  "time": "2026-09-08T17:12:59.031578+08:00",
+  "active_user_goal": "Optimize RLT over fixed base VLA, show obvious paired effects and explain code/training. Latest questions BC-only and training code answered in commentary; continue actual optimization.",
+  "resource": "RTX5090 32GB; unrelated GPU process ~8GB; two VLA evaluators fit total ~28GB; do not kill unrelated jobs",
+  "running": {
+    "18733": "residual v4 alpha1 validation30 pairs, original reset",
+    "69158": "residual v4 alpha0.5 validation30 pairs, original reset",
+    "79265": "CPU static viewer server127.0.0.1:7860"
+  },
+  "main_results": {
+    "v2": "results/optimization_v2_20260908_beta3; completed50warmup+100RL,24808steps3147chunks,critic3328 actor1600 initialBC128; original-reset validation31-33 base21/30 release22/30 BC23/30 TD3candidate21/30",
+    "v2_blends": "results/optimization_v2_blend_validation_20260908; single-build base21/30,BCalpha.25 22,.5 20,RLTalpha.25 21,.5 20",
+    "v3": "results/offline_mc_v3_20260908; completedCPU1024 MCcritic+512 Actor/BC additional; validation results/offline_mc_v3_validation_20260908 base21/30 BC23/30 candidate20/30 single-build",
+    "v4": "results/offline_residual_v4_20260908; completedCPU1024MC+512TD3actor, zero-head identity BC proven unchanged; new bounded residual architecture=reference+0.1*tanh(raw), no dropout/deterministic actor, raw checkpoint compatiblekeys but MUST residualwrap. Evaluation alpha1 and.5 currentlyrunning."
+  },
+  "test": "Initials40-49 all10tasks NEVER USED. Must freeze selected candidate before final100 paired test. No task/oracle gating. Plannedconfirmation34-39 can amend beforetest if sufficientfixed100test instead to avoid duplication; recorddeviation. Do not claim boost ifnotobserved.",
+  "environment_issue": "single-build-env showedall10 shortfixed &3full policychecks equal butexpanded30 baseline comparison differs task9init31 131stepsoriginal vs127singlebuild (successsame). Manifests/single-build-expanded-check.json records not fullyequivalent. Use ORIGINAL reset for residual eval and FINAL TEST. Do not poolstepmetricsacrossreset variants. Root informeduser ofcorrection. persistent_libero.py processreuse remainsoriginalresetsemantics andsafe.",
+  "scripts": [
+    "scripts/evaluate_residual_rlt.py (new root, runsversion4 correctly; testenforcesall100, defaultalpha1)",
+    "scripts/compare_optimized_live.py + run_optimized_live.sh (new exactFrozenepisode livewrapper supportsv2/v3/v4, default7861; compilednotGPUlive-tested)",
+    "scripts/build_optimization_viewer.py + serve_optimization_results.py (alltested; rootaddedstaticBClegend)",
+    "scripts/offline_residual_rlt.py + residual_actor.py (agent5CPUtests+smoke)",
+    "scripts/offline_rlt_mc_candidate.py (agent6CPUtests+smoke)"
+  ],
+  "next": [
+    "Monitor v4 evaluations and compare30pairedcounts, generateviewer pages forcompletedv2blends/v3/v4",
+    "Choose final candidate honestly basedvalidation; assess whetherv4 givesgain; bestsofarfullBC23/30 butRLT21/30 notimproved",
+    "Freeze selectionmanifest before touchingtest40-49; evaluate100pairs originalreset (v4script2policies=200eps, identityBCbase; v2/v3useblend evaluator base/BC/candidate=300eps)",
+    "Generate fullreportplusbothwins/losses videos andvisiblepage; optionallyliveGPUcheck onvalidationafterevaluation, do notkeepanotherGPUVLAwhile2evaluatorsrunning",
+    "UpdateREADME/docswithactualresults andcodepaths; finalChinese answer should include currentquestiontrainingexplanation andactualobjectiveoutcome, notpromiseimprovementifnone"
+  ],
+  "agents": "Allcompleted; optimization_strategy_review deliveredv4anddocs/bounded_residual_loading.md. Followuptools occasionallythreadlimit; no needmoreagent."
+}

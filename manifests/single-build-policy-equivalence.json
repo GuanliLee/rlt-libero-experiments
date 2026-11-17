@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "paired_equal": [
+    true,
+    true,
+    true
+  ],
+  "episodes": [
+    {
+      "policy": "baseline",
+      "task_id": 0,
+      "task": "open the middle drawer of the cabinet",
+      "initial_state": 31,
+      "seed": 42,
+      "success": false,
+      "action_steps": 320,
+      "chunks": 40,
+      "reward": 0.0,
+      "mean_abs_action_difference": 0.00024263530053758586,
+      "wall_seconds": 10.510638653009664,
+      "variant": "original",
+      "action_sha256": "83d70063cb698041f81680d27ab967cae82a8fed019003afb588193d1331641c",
+      "observation_sha256": "bbc0ecd7449541e3a6aab1beefd2d560f1a8c931eb8085c587a1bad0cec147b7"
+    },
+    {
+      "policy": "baseline",
+      "task_id": 0,
+      "task": "open the middle drawer of the cabinet",
+      "initial_state": 31,
+      "seed": 42,
+      "success": false,
+      "action_steps": 320,
+      "chunks": 40,
+      "reward": 0.0,
+      "mean_abs_action_difference": 0.00024263530053758586,
+      "wall_seconds": 9.094129242992494,
+      "variant": "single_build",
+      "action_sha256": "83d70063cb698041f81680d27ab967cae82a8fed019003afb588193d1331641c",
+      "observation_sha256": "bbc0ecd7449541e3a6aab1beefd2d560f1a8c931eb8085c587a1bad0cec147b7"
+    },
+    {
+      "policy": "baseline",
+      "task_id": 3,
+      "task": "open the top drawer and put the bowl inside",
+      "initial_state": 31,
+      "seed": 42,
+      "success": true,
+      "action_steps": 181,
+      "chunks": 23,
+      "reward": 5.0,
+      "mean_abs_action_difference": 0.00011508593034586343,
+      "wall_seconds": 7.4004913959652185,
+      "variant": "original",
+      "action_sha256": "0ca97d99f54c2bea9c1e4fcf64720417f7004f1e4a6a09c7be71af84eb9d3b3a",
+      "observation_sha256": "0acedca69ac2bfeed6fabb707da9870e0e19c8dcebf1513245006a7ffe97f406"
+    },
+    {
+      "policy": "baseline",
+      "task_id": 3,
+      "task": "open the top drawer and put the bowl inside",
+      "initial_state": 31,
+      "seed": 42,
+      "success": true,
+      "action_steps": 181,
+      "chunks": 23,
+      "reward": 5.0,
+      "mean_abs_action_difference": 0.00011508593034586343,
+      "wall_seconds": 6.320706914004404,
+      "variant": "single_build",
+      "action_sha256": "0ca97d99f54c2bea9c1e4fcf64720417f7004f1e4a6a09c7be71af84eb9d3b3a",
+      "observation_sha256": "0acedca69ac2bfeed6fabb707da9870e0e19c8dcebf1513245006a7ffe97f406"
+    },
+    {
+      "policy": "baseline",
+      "task_id": 6,
+      "task": "put the cream cheese in the bowl",
+      "initial_state": 30,
+      "seed": 42,
+      "success": true,
+      "action_steps": 86,
+      "chunks": 11,
+      "reward": 5.0,
+      "mean_abs_action_difference": 7.097694370631044e-05,
+      "wall_seconds": 5.416497080994304,
+      "variant": "original",
+      "action_sha256": "354fcbeb2ba30c9b8841239a68fd157327c41616da9de70a070bd9c0ec7d755a",
+      "observation_sha256": "aa84c392e3d657e336c3414e8bb7d0f580cb83e5c011e12c16c3fa36f3f5b623"
+    },
+    {
+      "policy": "baseline",
+      "task_id": 6,
+      "task": "put the cream cheese in the bowl",
+      "initial_state": 30,
+      "seed": 42,
+      "success": true,
+      "action_steps": 86,
+      "chunks": 11,
+      "reward": 5.0,
+      "mean_abs_action_difference": 7.097694370631044e-05,
+      "wall_seconds": 4.240864171006251,
+      "variant": "single_build",
+      "action_sha256": "354fcbeb2ba30c9b8841239a68fd157327c41616da9de70a070bd9c0ec7d755a",
+      "observation_sha256": "aa84c392e3d657e336c3414e8bb7d0f580cb83e5c011e12c16c3fa36f3f5b623"
+    }
+  ],
+  "source_sha256": {
+    "/opt/shared_assets/8t/lgl/RLT/scripts/validate_single_build_policy.py": "6c868b9cd5963247b7541bb7b0799ffeef5ed492b591073ba7056913c641e491",
+    "/opt/shared_assets/8t/lgl/RLT/scripts/libero_worker_single_build.py": "a1b66025f55f3fd4574ea676b29ebca311a1b5598dff1fd44a4b09305a2ce623"
+  },
+  "no_training": true,
+  "all_observations_and_executed_actions_hashed": true
+}

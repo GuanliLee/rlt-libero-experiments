@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "suite": "libero_10",
+  "split": "training_probe",
+  "model": "pi05_libero",
+  "counts": {
+    "baseline": {
+      "successes": 16,
+      "episodes": 30
+    }
+  },
+  "training_updates": 0,
+  "wall_seconds": 507.83136434305925
+}

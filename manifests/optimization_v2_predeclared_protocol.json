@@ -1,0 +1,142 @@
+{
+  "created_at": "2026-09-08T16:29:56.737033+08:00",
+  "objective": "Improve all-10-task macro success over frozen QwenOFT VLA, and measure contribution against equal-update BC control",
+  "train": {
+    "tasks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "initials_allowed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "baseline_warmup_per_task": 5,
+    "online_episodes": 100,
+    "bc_initial_steps": 128,
+    "critic_pretrain_steps": 128,
+    "updates_per_episode": 32,
+    "actor_lr": 1e-05,
+    "critic_lr": 0.0003,
+    "beta": 3.0,
+    "exploration_std": 0.05,
+    "ref_dropout": 0.1
+  },
+  "validation": {
+    "initials_first_pass": [
+      31,
+      32,
+      33
+    ],
+    "initials_confirmation": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "policy_grid": [
+      "baseline",
+      "released_rlt",
+      "pilot",
+      "equal_update_bc",
+      "v2_td3",
+      "v2_td3_alpha_0.25",
+      "v2_td3_alpha_0.5"
+    ],
+    "selection": "Global coefficient shared by all tasks; maximize macro success, then minimize paired losses vs baseline, then lower mean capped episode steps. No task-specific or outcome-based switching."
+  },
+  "locked_test": {
+    "initials": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "tasks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "evaluate_after_selection": [
+      "baseline",
+      "selected_candidate",
+      "matched_bc"
+    ],
+    "rule": "Freeze checkpoint, coefficient and protocol before test. No retuning to test outcomes. Held out only from this local continuation; original released training may have seen these initial states."
+  },
+  "fixed_environment": {
+    "suite": "libero_goal",
+    "seed": 42,
+    "horizon": 320,
+    "warmup_steps": 10,
+    "action_chunk": 8,
+    "vla_precision": "bfloat16",
+    "attention": "sdpa",
+    "image_compression": "lossless PNG level 1",
+    "batch_size_inference": 1
+  },
+  "evidence": [
+    "all-task success counts",
+    "paired wins/losses",
+    "task-stratified paired bootstrap interval",
+    "exact McNemar",
+    "steps on jointly successful pairs",
+    "videos including wins and regressions"
+  ],
+  "no_guarantee": "Optimization success is empirical; an obvious gain must not be invented if paired results do not support it.",
+  "aspirational_effect": {
+    "macro_success_gain_percentage_points": 10,
+    "statistical_check": "paired 95% interval lower bound > 0; report exact paired test without hiding contrary evidence",
+    "not_a_guarantee": true
+  }
+}

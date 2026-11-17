@@ -1,0 +1,6 @@
+{
+  "source": "results/pi05_moka_direct_20260909_b",
+  "sha256": "6d97bf5ebe8b9bd982fc13581de7daa0ba6a3e8a3326c8ae5b3306804fb9ce18",
+  "reason": "Same frozen pi, environment, seeds, initial states and action protocol; all20 matched previous baseline success and step counts",
+  "new_baseline_rollouts": 0
+}

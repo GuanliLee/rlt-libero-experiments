@@ -1,0 +1,19 @@
+# Simulator-only dependencies, independent from AlphaBrain inference.
+numpy==1.24.4
+mujoco==2.3.7
+robosuite==1.4.0
+bddl==1.0.1
+gym==0.25.2
+numba==0.59.1
+opencv-python==4.6.0.66
+easydict==1.13
+cloudpickle==2.2.1
+Pillow==11.3.0
+PyYAML==6.0.2
+msgpack==1.1.1
+matplotlib==3.7.5
+h5py==3.14.0
+future==1.0.0
+einops==0.8.1
+termcolor==2.4.0
+# CPU-only torch==2.5.1 is installed separately from the official CPU index.

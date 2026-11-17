@@ -1,0 +1,8 @@
+{
+  "identity": "results/pi05_moka_direct_dense_20260910_b/validation_ep000.pt",
+  "trained": "results/pi05_moka_direct_dense_20260910_b/validation_ep060.pt",
+  "alpha": 0.5,
+  "identity_sha256": "b4dbc7faf615ab2c2f77eec6c288a015c3294adc0ebeca64d9e48c24848bd20f",
+  "trained_sha256": "2ee5b14ccac33ad648723f0db16d1deecf9a32cc4ac853f75b9cf0dc7253829a",
+  "meaning": "Actor still directly emits the full 5x7 chunk; only trainable weights are interpolated."
+}

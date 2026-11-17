@@ -1,0 +1,11 @@
+test_delayed_actor_updates_across_single_update_batches (test_rlt_td3_regressions.TD3Regressions.test_delayed_actor_updates_across_single_update_batches) ... ok
+test_empty_and_dropped_rollouts_stop_training (test_rlt_td3_regressions.TD3Regressions.test_empty_and_dropped_rollouts_stop_training) ... ok
+test_explicit_task_ids_exclude_other_replay_tasks (test_rlt_td3_regressions.TD3Regressions.test_explicit_task_ids_exclude_other_replay_tasks) ... ok
+test_missing_worker_result_raises_after_thread_join (test_rlt_td3_regressions.TD3Regressions.test_missing_worker_result_raises_after_thread_join) ... ok
+test_noncontiguous_task_ids_all_receive_samples (test_rlt_td3_regressions.TD3Regressions.test_noncontiguous_task_ids_all_receive_samples) ... ok
+test_td_target_is_invariant_to_unrelated_batch_reward (test_rlt_td3_regressions.TD3Regressions.test_td_target_is_invariant_to_unrelated_batch_reward) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.659s
+
+OK

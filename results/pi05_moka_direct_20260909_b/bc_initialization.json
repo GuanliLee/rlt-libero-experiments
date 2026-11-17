@@ -1,0 +1,8 @@
+{
+  "steps": 0,
+  "kind": "exact imitation via trainable direct MLP identity initialization",
+  "reference_dropout": 0.0,
+  "actor_dtype": "float64",
+  "no_residual_connection": true,
+  "all_weights_trainable": true
+}

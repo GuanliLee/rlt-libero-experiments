@@ -1,0 +1,145 @@
+{
+  "videos_checked": 20,
+  "checks": [
+    {
+      "task": 0,
+      "policy": "baseline",
+      "frames": 126,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 0,
+      "policy": "rlt",
+      "frames": 125,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 1,
+      "policy": "baseline",
+      "frames": 86,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 1,
+      "policy": "rlt",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 2,
+      "policy": "baseline",
+      "frames": 109,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 2,
+      "policy": "rlt",
+      "frames": 94,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 3,
+      "policy": "baseline",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 3,
+      "policy": "rlt",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 4,
+      "policy": "baseline",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 4,
+      "policy": "rlt",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 5,
+      "policy": "baseline",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 5,
+      "policy": "rlt",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 6,
+      "policy": "baseline",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 6,
+      "policy": "rlt",
+      "frames": 320,
+      "fps": 10.0,
+      "success": false
+    },
+    {
+      "task": 7,
+      "policy": "baseline",
+      "frames": 68,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 7,
+      "policy": "rlt",
+      "frames": 82,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 8,
+      "policy": "baseline",
+      "frames": 77,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 8,
+      "policy": "rlt",
+      "frames": 75,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 9,
+      "policy": "baseline",
+      "frames": 133,
+      "fps": 10.0,
+      "success": true
+    },
+    {
+      "task": 9,
+      "policy": "rlt",
+      "frames": 133,
+      "fps": 10.0,
+      "success": true
+    }
+  ]
+}

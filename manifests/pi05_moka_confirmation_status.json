@@ -1,0 +1,30 @@
+{
+  "stage": "complete",
+  "updated": "2026-09-09T15:20:15.348958+08:00",
+  "result": "/opt/shared_assets/8t/lgl/RLT/results/pi05_moka_confirmation_20260909_a",
+  "comparisons": [
+    {
+      "seed": 7,
+      "scale": 0.0,
+      "successes": 9,
+      "episodes": 10,
+      "wins": [],
+      "losses": []
+    },
+    {
+      "seed": 7,
+      "scale": 1.0,
+      "successes": 6,
+      "episodes": 10,
+      "wins": [
+        37
+      ],
+      "losses": [
+        30,
+        33,
+        38,
+        39
+      ]
+    }
+  ]
+}

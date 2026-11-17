@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "chunks_before": 16,
+    "chunks_after": 16,
+    "actions_exactly_equal": true,
+    "max_abs_difference": 0.0
+  },
+  "rlt": {
+    "chunks_before": 16,
+    "chunks_after": 16,
+    "actions_exactly_equal": true,
+    "max_abs_difference": 0.0
+  }
+}

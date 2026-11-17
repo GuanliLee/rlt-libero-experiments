@@ -1,0 +1,51 @@
+{
+  "repo_id": "AlphaBrainGroup/alphabrain-rlt-5traj-alltasks-libero-goal",
+  "revision": "b5c0080e46f4b900c049e76bd9f3df68befac12a",
+  "download_endpoint": "https://hf-mirror.com",
+  "verification_metadata_endpoint": "https://huggingface.co",
+  "verified_at": "2026-09-08T02:10:34.138968+00:00",
+  "files": [
+    {
+      "path": "checkpoints/rlt_a/.gitattributes",
+      "bytes": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "hub_lfs_sha256": null
+    },
+    {
+      "path": "checkpoints/rlt_a/README.md",
+      "bytes": 5352,
+      "sha256": "98ce3ae801622fab8782e646fac7282eb9a238b24a718c85cda49805214576c6",
+      "hub_lfs_sha256": null
+    },
+    {
+      "path": "checkpoints/rlt_a/eval_summary.json",
+      "bytes": 361,
+      "sha256": "adc1705348425962c485cfc83d6ec3b0a12598b1b4f57e6bd7fa99ed285dbf44",
+      "hub_lfs_sha256": null
+    },
+    {
+      "path": "checkpoints/rlt_a/metrics.json",
+      "bytes": 220382,
+      "sha256": "5f1cf09c352c8113ade8d433a11bbcc2d9cb83db96d257228b2f3357e66f662e",
+      "hub_lfs_sha256": null
+    },
+    {
+      "path": "checkpoints/rlt_a/rl_offpolicy_iter_00400/actor.pt",
+      "bytes": 1825582,
+      "sha256": "52a215436ede819fe4ce5ceea86d183ed2b59d744460836389ae4c4c255b8e7b",
+      "hub_lfs_sha256": "52a215436ede819fe4ce5ceea86d183ed2b59d744460836389ae4c4c255b8e7b"
+    },
+    {
+      "path": "checkpoints/rlt_a/rl_offpolicy_iter_00400/critic.pt",
+      "bytes": 3423970,
+      "sha256": "d28f6a515933e15f0bf867b4ed81515c2979f91709723ec820ce9394cbd27f44",
+      "hub_lfs_sha256": "d28f6a515933e15f0bf867b4ed81515c2979f91709723ec820ce9394cbd27f44"
+    },
+    {
+      "path": "checkpoints/rlt_a/rl_offpolicy_iter_00400/encoder.pt",
+      "bytes": 541528628,
+      "sha256": "fce0ac40b1fabf5985197910d0227066ee39cd38d1eb91f2a1c1fcb69f6432ab",
+      "hub_lfs_sha256": "fce0ac40b1fabf5985197910d0227066ee39cd38d1eb91f2a1c1fcb69f6432ab"
+    }
+  ]
+}

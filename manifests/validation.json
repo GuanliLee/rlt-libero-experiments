@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "date": "2026-09-08",
+  "method": "AlphaBrain QwenOFT + RLT_a (third-party variant)",
+  "command": "bash /opt/shared_assets/8t/lgl/RLT/scripts/run_preview.sh",
+  "run_directory": "/opt/shared_assets/8t/lgl/RLT/results/preview_20260908_102413_3850251",
+  "scope": "One deterministic LIBERO-Goal task 0 episode; not a full benchmark reproduction",
+  "task": "open the middle drawer of the cabinet",
+  "episodes": 1,
+  "successes": 1,
+  "vla_weight_keys_matched": 841,
+  "gpu": "NVIDIA GeForce RTX 5090 32 GB",
+  "pytorch_peak_allocated_gib": 9.08,
+  "pytorch_peak_reserved_gib": 9.35,
+  "memory_scope": "Model process PyTorch allocator; excludes separate LIBERO process and unrelated GPU processes",
+  "video": "/opt/shared_assets/8t/lgl/RLT/results/preview_20260908_102413_3850251/videos/task_00/eval_s00_ep00_success.mp4",
+  "decoded_video_frames": 125,
+  "video_bytes": 93559,
+  "summary": [
+    {
+      "action_token_ckpt": "/opt/shared_assets/8t/lgl/RLT/checkpoints/rlt_a/rl_offpolicy_iter_00400",
+      "vla_ckpt": "/opt/shared_assets/8t/lgl/RLT/checkpoints/qwenoft_5traj",
+      "suite": "libero_goal",
+      "n_eps_per_task": 1,
+      "per_task_sr": {
+        "0": 1.0
+      },
+      "overall_sr": 1.0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+https://hf-mirror.com/AlphaBrainGroup/alphabrain-rlt-5traj-alltasks-libero-goal/resolve/b5c0080e46f4b900c049e76bd9f3df68befac12a/rl_offpolicy_iter_00400/encoder.pt
+  dir=/opt/shared_assets/8t/lgl/RLT/checkpoints/rlt_a/rl_offpolicy_iter_00400
+  out=encoder.pt
+  checksum=sha-256=fce0ac40b1fabf5985197910d0227066ee39cd38d1eb91f2a1c1fcb69f6432ab

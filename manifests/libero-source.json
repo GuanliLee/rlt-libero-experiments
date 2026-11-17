@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+  "commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "source_url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/8f1084e3132a39270c3a13ebe37270a43ece2a01/",
+  "retrieval": "official source files, with every Git blob verified against the pinned GitHub recursive Git tree; initial files recovered from an interrupted official codeload archive",
+  "verified_source_files": 1116,
+  "source_file_bytes": 443644276,
+  "training_demonstrations_downloaded": false
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "policy": "candidate",
+    "seed": 42,
+    "initial_state": 31,
+    "success": true,
+    "action_steps": 358,
+    "video": "candidate_seed42_init31_success.mp4",
+    "rollout_seconds": 36.528318242984824,
+    "gate_actor": 0,
+    "gate_pi": 0,
+    "mean_q_margin": null
+  }
+]

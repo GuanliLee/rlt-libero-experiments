@@ -1,0 +1,15 @@
+{
+  "selected_before_final_test": true,
+  "selection_rule": "highest aggregate validation successes among tested direct-action candidates",
+  "selected": "results/pi05_moka_direct_interp_a050_20260910/policy.pt",
+  "checkpoint_sha256": "f82b0b6f007b51cc9b81f2c06beaad47efc1e898c4fa91270b6d6f505c2fd1c8",
+  "validation": {
+    "baseline": "15/20",
+    "candidate": "16/20",
+    "seed42": "9/10",
+    "seed7": "7/10"
+  },
+  "final_test_initials": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+  "final_test_seeds": [123, 456],
+  "action_form": "Actor directly outputs the complete 5x7 action chunk; no residual addition"
+}

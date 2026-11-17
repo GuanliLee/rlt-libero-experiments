@@ -1,0 +1,6 @@
+{
+  "source": "/opt/shared_assets/8t/lgl/RLT/results/pi05_moka_direct_20260909_a",
+  "sha256": "4250771b1f9f1780248dab2abba12714bc0029294259ab8ac998159d64940130",
+  "reason": "Same frozen pi, environment, seeds, initial states and action protocol; all20 matched previous baseline success and step counts",
+  "new_baseline_rollouts": 0
+}

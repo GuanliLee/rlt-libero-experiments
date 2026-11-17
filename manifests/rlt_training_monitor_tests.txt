@@ -1,0 +1,10 @@
+test_budget_stops_even_on_improvement (test_rlt_training_monitor.MonitorTests.test_budget_stops_even_on_improvement) ... ok
+test_patience_and_initial_checkpoint (test_rlt_training_monitor.MonitorTests.test_patience_and_initial_checkpoint) ... ok
+test_reject_test_missing_duplicate_wrongrun_changedbaseline (test_rlt_training_monitor.MonitorTests.test_reject_test_missing_duplicate_wrongrun_changedbaseline) ... ok
+test_speed_cannot_trade_away_success_or_change_survivors (test_rlt_training_monitor.MonitorTests.test_speed_cannot_trade_away_success_or_change_survivors) ... ok
+test_success_improvement_resets_patience_and_restore (test_rlt_training_monitor.MonitorTests.test_success_improvement_resets_patience_and_restore) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

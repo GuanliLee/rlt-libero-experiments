@@ -1,0 +1,139 @@
+{
+  "summary": {
+    "status": "complete",
+    "kind": "published_direct_action_actor_identity_init_local_pi_encoder",
+    "baseline_successes": 15,
+    "best_validation_successes": 15,
+    "bc_only_successes": 15,
+    "validation_episodes": 20,
+    "best_episode": 0,
+    "collected_training_episodes": 40,
+    "warmup_episodes": 30,
+    "replay_transitions": 6496,
+    "critic_mc_updates": 500,
+    "critic_td_updates": 2560,
+    "actor_updates": 1280,
+    "wall_seconds": 2161.3904962548986,
+    "test_initials_used": false,
+    "note": "Two-seed validation model selection, not independent final-test evidence; original action form but local encoder."
+  },
+  "all_checkpoints": [
+    {
+      "policy": "baseline",
+      "episode": 0,
+      "successes": 15,
+      "episodes": 20,
+      "by_seed": {
+        "42": {
+          "successes": 6,
+          "episodes": 10
+        },
+        "7": {
+          "successes": 9,
+          "episodes": 10
+        }
+      }
+    },
+    {
+      "policy": "bc_only",
+      "episode": 0,
+      "successes": 15,
+      "episodes": 20,
+      "by_seed": {
+        "42": {
+          "successes": 6,
+          "episodes": 10
+        },
+        "7": {
+          "successes": 9,
+          "episodes": 10
+        }
+      }
+    },
+    {
+      "policy": "candidate",
+      "episode": 0,
+      "successes": 15,
+      "episodes": 20,
+      "by_seed": {
+        "42": {
+          "successes": 6,
+          "episodes": 10
+        },
+        "7": {
+          "successes": 9,
+          "episodes": 10
+        }
+      }
+    },
+    {
+      "policy": "candidate",
+      "episode": 20,
+      "successes": 9,
+      "episodes": 20,
+      "by_seed": {
+        "42": {
+          "successes": 6,
+          "episodes": 10
+        },
+        "7": {
+          "successes": 3,
+          "episodes": 10
+        }
+      }
+    },
+    {
+      "policy": "candidate",
+      "episode": 40,
+      "successes": 15,
+      "episodes": 20,
+      "by_seed": {
+        "42": {
+          "successes": 7,
+          "episodes": 10
+        },
+        "7": {
+          "successes": 8,
+          "episodes": 10
+        }
+      }
+    }
+  ],
+  "selected_paired_comparisons": {
+    "baseline": {
+      "wins": [],
+      "losses": []
+    },
+    "bc_only": {
+      "wins": [],
+      "losses": []
+    }
+  },
+  "loss_statistics": {
+    "critic_loss": {
+      "first100_mean": 0.10873565654522291,
+      "last100_mean": 0.056793248555074234,
+      "count": 2560
+    },
+    "actor_loss": {
+      "first100_mean": -0.5292100121553008,
+      "last100_mean": -0.5792088184433247,
+      "count": 1280
+    },
+    "bc_penalty": {
+      "first100_mean": 0.0018039815883926589,
+      "last100_mean": 0.0017831723413441018,
+      "count": 1280
+    },
+    "q_actor": {
+      "first100_mean": 0.5346219569204788,
+      "last100_mean": 0.584558335467357,
+      "count": 1280
+    },
+    "target_mean": {
+      "first100_mean": 0.5300301632386683,
+      "last100_mean": 0.574478213757071,
+      "count": 2560
+    }
+  }
+}

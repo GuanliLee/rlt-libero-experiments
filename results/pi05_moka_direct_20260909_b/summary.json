@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "kind": "published_direct_action_actor_identity_init_local_pi_encoder",
+  "baseline_successes": 15,
+  "best_validation_successes": 15,
+  "bc_only_successes": 15,
+  "validation_episodes": 20,
+  "best_episode": 0,
+  "collected_training_episodes": 40,
+  "warmup_episodes": 30,
+  "replay_transitions": 6496,
+  "critic_mc_updates": 500,
+  "critic_td_updates": 2560,
+  "actor_updates": 1280,
+  "wall_seconds": 2161.3904962548986,
+  "test_initials_used": false,
+  "note": "Two-seed validation model selection, not independent final-test evidence; original action form but local encoder."
+}

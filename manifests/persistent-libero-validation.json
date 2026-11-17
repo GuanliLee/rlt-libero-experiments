@@ -1,0 +1,1312 @@
+{
+  "status": "passed",
+  "no_vla_loaded": true,
+  "fixed_actions_only": true,
+  "no_training_or_model_selection": true,
+  "same_worker_reused": true,
+  "source_sha256": {
+    "/opt/shared_assets/8t/lgl/RLT/scripts/validate_persistent_libero.py": "d6d49b3fc967e923b101854b271739040ed371e169da936fa848690e796c281d",
+    "/opt/shared_assets/8t/lgl/RLT/scripts/persistent_libero.py": "76bc58a7a4fcb1848312ed17a9b2234837d9c6a19d49178d2bbcde8364f3bd30",
+    "/opt/shared_assets/8t/lgl/RLT/scripts/libero_worker_fast_png.py": "0f8fa60a3c729f3302fe81bbcbd4a1b1b27356e1f8c4df4dc845ad2055ad248d"
+  },
+  "fresh_process_fixtures": {
+    "0": {
+      "task_id": 0,
+      "initial_state": 0,
+      "seed": 42,
+      "reset_seconds": 3.3716131940018386,
+      "wall_seconds": 3.7052549599902704,
+      "frames": [
+        {
+          "obs": {
+            "primary_image": "ba7557cbaf38dd3e8b871a10020a34eaf6c838cf2f95807b69ca2119480a8ebb",
+            "wrist_image": "7cae682671e30832ea0fc951cea8174c8171a633742f59ba0e1508447e9a846b",
+            "state": "5eb3662bc100adf4e06a75ffdbbd6deb5df5549f51845c633ee0d5f64bb0501b"
+          }
+        },
+        {
+          "obs": {
+            "primary_image": "7667f6d3e872c8ab280f6ba5a70e6f6fd558942c60216bad7abc363b36437907",
+            "wrist_image": "ae8974b235c09afae8cdfffa5b8b04ca7a055597d964b6f81b36baca235c39d2",
+            "state": "b2bcee806ce8fab6e6af67418c896bb5dff7de6897d0117dde8ea88dab447c69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7614a3a5d4119092fb53307c4e5bfe4db1e881649e4033dc366f9b2bc5c6c07c",
+            "wrist_image": "2815b41df97622c5e0d23b9c6274723c54b7de5aaa71825f72ba727f726bc33f",
+            "state": "e8eb8a4fb61c741091185871eea9065a32c3d7d1f9cb5858e804c8e1ef4174d4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5144a98a8a67b85a86b3dea6318d155a9f693e254b0761d6d26ac10823e5d52c",
+            "wrist_image": "289ccbe478103622b1fc79275740f9cd969ace03a20f5bc236a3d8788914efe9",
+            "state": "f648aedfe048357a8e985ee74e247bdd362e06c3f96adf2651843011df77e879"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "71f88599ce8fd296c87725c628bb1afe673b29010742ec499b980a23a8467251",
+            "wrist_image": "e9709485b3b387790243738d420dc4c3fea434b5a3357e98296c295248b86950",
+            "state": "77a191c0ca551e329298fb67aa75fca6a2d828caa6121127daeb945834c7eca3"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "b915581d575512e141e91b03329fb7229e82c5f183690f8124064167ec230e5c",
+            "wrist_image": "521263fef5aaaaf2d01bc1af68b42fb6b0a757540013583a0884220b6088e666",
+            "state": "a923c7c1283ba3e2a0fc26dce50889d4c8154ef3b101f9805fa917e104f4d7c4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "388710c707b21441385a5c6a8472b6a5c4978d84b0ea3ccef56d40dc2e2dd27d",
+            "wrist_image": "0613c5e10253c304e567302b81df1c161182ea12181458e28f2f4505bc0d3cd3",
+            "state": "072a13e48600a2227cf102544d07d6df0d1fd3ea57d574af808df1ee7f479039"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "19621bb881e0ffa51b18ca63ed4fa9c9511ba0c006ee9e3d93b0f82c28032514",
+            "wrist_image": "d7821224b9be72d8c8609046c4505e0cc061136d2002f4fd868e6ddf6a1045e5",
+            "state": "b18598d7314ded47fdcd870917eb69723171bfb7c171ca86ddff8d8e85dbdff4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "561fd236c6bc4db17b62f803b2adaa992ee13ef4492ed1dcdd8e878eb2def1d6",
+            "wrist_image": "441bf2413189200040c0dc532a5ce1bab4a936e81b517ffd5bdc189ad3d03ab7",
+            "state": "1cfc7f34d115a3a2894d06e08625868591e377306bca319f38d016762d48523b"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "04a63f52d5195ab4911e08b323c2417a01bc419bc84f723aa6f4c04e24fa9695",
+            "wrist_image": "02a2fe624f7f4059331257f7a95486d2994033c63bf6b739e673281d8bd58c79",
+            "state": "7e8f2eb67e0fdf703e23e76b25b99db3a50695d2a9c38ebbb2b72ff3a5fabaa7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "10d0ed950adf22355eab1a39cc2bca01228454e197afdbe9aa57faa391eb8c62",
+            "wrist_image": "fb25f926be96fb2143226f5f0a0c5f9317d970739652509f9d2eaf274ab27ffb",
+            "state": "7a83dcba05563e9b86872ff117294a23a22d244539f73919c062f4861188a8c5"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a1c6e2896354b217dbb2c3e3f5153f6dbd19a6b004c8584abac623ec3de92284",
+            "wrist_image": "667148aae6dde250c7ef06667c23461835d625d15b2a87114c15418d5f368cfa",
+            "state": "46b0c95dfde41f3740e914bbc0ef62a679316f6a0d9ae8b744edca534204b672"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "c12c2707922a4598d452a7e7f864ea69138c93e0bf017439a379058f7c9d8247",
+            "wrist_image": "d37661e3521db3be209678e4678840ae806af194a3611a897027d1f43cd39569",
+            "state": "15d38f7e3916d04a706701b5f2ae140f9eac8d970de6da09c563f3a1162b0d69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "94621409b7a28ac936cad5532735b9d29487df0f39c5cebf8b36f0c2b9fccbba",
+            "wrist_image": "db6de17c3ab1ccd19a8554ae7840a1d41a33f0833761f303ac08a824f6192b9f",
+            "state": "aea61b72f4a29988f594a0c2a039ecb9d71bbabe111f79b54d0a7e0a32c02c0e"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "95d9818ba1d8c8345c7564a3a32dd3d30d5d5883433e04b7b01fe6f6ed5c037f",
+            "wrist_image": "33264c95293ca88b6ff55c1533ffed803d0c057631f02274b57ed96582c354f8",
+            "state": "c5be4a73063e3138aed38e094248663bcf4a087619959682c1babef8fb650626"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "3e8297e645a10901e33bb4b255c6cda63254d96af5157ccf9d0854ce685c4ee3",
+            "wrist_image": "9ec1b39ebc8bcb08fc379f045da2e1245f06b472fd2c21c09165b16b1073ecd0",
+            "state": "85895b203d4f80519e722c074c2fc7971113061d9d73066516e63ef17e73c501"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5cf4525a38c198842d43428a1a55e8c7581919fad4d7ea8647598a0a7c094987",
+            "wrist_image": "dee6e37856eb18e45595bb22b5ee7f4842daafa4f94a1295196756f4cd1707be",
+            "state": "d16b9bd96e17d279f6fa4332befcf85d047fbb637026bab9caf2f62487cb5ef7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e266aaf53eaa49267c1dbb5190e2e4a6d5c4e1567e45440af35755cb8a25218e",
+            "wrist_image": "f3a15c4a69c0bf5af1a715635ba2b1b6babb2385ad62a23d00bec8f4e1f04b3c",
+            "state": "84475bca4c187f4f6a1b7cbf793a32d99bf6a086194f67f044e93db63e8ad779"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "ee2c9e4c11d1417425a7ad89889e607aaced32610635ae2c8199ca725f87ead8",
+            "wrist_image": "d720e31da8c0f3b060f242fba0514110e0c2588882c0a2cbdb8a6e47892ca9c3",
+            "state": "a7c3403101943762a6c1cb2586dc9a884e3865a592e7e73c5bbf242228cb9556"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7d07bfde0ad9effb5f69efa4f8d3275ddc62e9a3f7841badc29f89aee4013fc0",
+            "wrist_image": "f0a3563f7014f4b1f139b58400203d34c3b2e171612d7a97031ad877ad9428cd",
+            "state": "30ceb83dc092142bea4f2b9ec10efa68c9f733d11938c6d0f2a3f94f30460b40"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e4f4e0ea078c88919e781f4425f9503394984ca4527b07228c15e60bfd58308c",
+            "wrist_image": "37b3c4d2ba41319845db0a686c34adadb91bd688b9b2eef41dab4014804df40a",
+            "state": "ee2245572f7f413f5d6eb8a404ba37c015c35a6f0e1a2905e7867cb548286819"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f94c1154a8c992f3afd7caa1117f13fe97c1d3c48fa04d7aac509eef46b51698",
+            "wrist_image": "c00c39bb3d3f184f98ca3e9db7892c3415adeac4d778dc489e462c0ec68ed2ea",
+            "state": "e04fcb2e7fbc103d8844816dce97fbb5084fd06c12100bcce0b9bed7b658e579"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "30da84ecd4adec1b625b81e16902d1d2bef6640197329e54219852f1c0b3c69e",
+            "wrist_image": "79d51948409d916c79b827b85b138c09236bb2e79f3e57562eb86f4f5ca9b925",
+            "state": "d6a1cb47d635189b7284e3235d46e496f80732872c8bb26a1a0dfcb96a72e435"
+          },
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    "1": {
+      "task_id": 1,
+      "initial_state": 0,
+      "seed": 42,
+      "reset_seconds": 3.296802266035229,
+      "wall_seconds": 3.6299164420343004,
+      "frames": [
+        {
+          "obs": {
+            "primary_image": "2c970d593b303581b5060de7a322f39fa719601a9e9eb6db8d73f05e48fff99e",
+            "wrist_image": "186da85a6c101f2691c6ea1ff31e933346e2cd9d38cd3ed3f27d86ddf11e6b76",
+            "state": "a5bed5e6b8eac5ce97bdc6d518e83d6997b82cee4a3eb2e1e9e6248e2aeb3414"
+          }
+        },
+        {
+          "obs": {
+            "primary_image": "a953f086b43473419a174d3d05f509d880ebed5d8e154616199a815ff27c6332",
+            "wrist_image": "e6e7e856ed7a576c0d12e53b56393b46f3a521d783db0b8c6b2ab5a253cd01b5",
+            "state": "be9b0b4e5d0f7b5a2475506a43b69c89ca002935a33e107e34426d6cb38794f1"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "979597ed39e54a1fc56284d30b16dec410daa35efa9c693b385a186221ac8c45",
+            "wrist_image": "cd99a68bf5693526caf6d543c33f09457514564fe2d4525faf176422bd74984a",
+            "state": "52d0f5bf508f2c21669caf98f892a4d7c021b905afcba8c24292a16f07de2abb"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "ce40f4d7b5e093c417b730cd79c744d2c34d49d6af3e388573dd14a278677be1",
+            "wrist_image": "16c69d47d69ec9f20c46807aa38289c8258440a251a8b52c059e03f01a73f440",
+            "state": "d6ce7d64dcdf4ad06eede45bd448693036102d75697a45d853addd16939bc82d"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f114abd90a257d390db38d0dd024a9184db9f36db3c0d88555e4180bc5ac293c",
+            "wrist_image": "b922dc38ea809a7f7d8185afc3291fe7a5153153424f69eb303ce124d7d19894",
+            "state": "fef146ab845f22a41713751c75b2a3e4a3112e09c5d3c0ffb031331b14993bd6"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "2c50048f026499192de8db4e713ad96027258fff3849f285284a4776dfd747e3",
+            "wrist_image": "798ad99c1cc07c65b9a915433eac20169632491e26c2f8bb43017d74bb99cb2d",
+            "state": "5003a9211139b7aceee32e0b7c0aa8fa7387a7fe6f1aa3004786f2f24c27a7ec"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f58f3de3ab7cd1d31f4a69c7c8c0ba40819ec9e04e331f32bca37a9453d218ef",
+            "wrist_image": "0c2e4c05ee9423e466b020d7a935ff8d37df7427f4f8b564863d6909df7c231e",
+            "state": "a82b12cfecddd215a416d969e14c2ec538e43b729e070ed823fdedfc4b02915a"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "23f8b710d058c0470e16a893230de981f97a545f7e8d2e65d3095bd78df9f659",
+            "wrist_image": "a98ed6d63accbe69cf930fe88f5a51a0892b59d9c803dc49464584af381ecb67",
+            "state": "013bf60adb6c9b3334195fb18a3487f270c43f4ae29e7bf5909d48256d772acc"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a6c948690cfb1cae5ffa78272ff7f967c9c017afacc92e317332e686c10ac1af",
+            "wrist_image": "2cad40b58773bb6caee198b78f26496be4f982133bb0268db7ea1bb0f3b73419",
+            "state": "3917df4fb71c6087984c38cd3fdb2c7d3849c0b21e9bb2d5df6fa1dbb335f2c3"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "cd9ceabf23a83f3599e63ca5f7d51e14edbdf3a8167628a9957df607a7a9f368",
+            "wrist_image": "ee2469b917845b7ec8c260ce57d3242326f4e83d8a7b5e69a15bc7027075d236",
+            "state": "c1ef4f781b455b95da89caca6904f3bbdf4fafb8d1147d835dd4fd991ece2a46"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "22b3bb72ff95de302c0fa15aab35c72d324e4e295faabaf46697c9650924597d",
+            "wrist_image": "c43334fa42f91a670da80743d46710741549203658733af7fc8574c65a66e067",
+            "state": "7cc75e142d1b31df3a2d302b4257f280dff621ecdca6b138a7e0a2956d51ffdd"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "8e26f0fafb7c9ac35793a4c239670f15aaabc17a33dc9e97a1f6bb26302d97b7",
+            "wrist_image": "8fbe7a5781f6e62ea4d2190eea84c137193d2b161f4b7553c57325ff0d3379b1",
+            "state": "30e612125fd0dfb4578750bc5755aed9210ad903d2916852b4dc19f84e1164be"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "be3ab021a565c4787091300f2ad25f7356b9faff632beeee9738eb446778eb65",
+            "wrist_image": "101dfb11f1d284930cb36b99553a4cc1d9f2f174cc75bcaa54639cd4eb8579d9",
+            "state": "d3c4c18c8b374afe3cf281cbc71307e3e29d021becc123bdddc97dc0b7f19698"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a1a5554b1aa2376dc74331e25df3934fa56efedd0f376a400ed690e8ff1dcd12",
+            "wrist_image": "3f17e0126ce645760e0a0caa9b769a5e7b906ff838a84e63266f37c8f9836955",
+            "state": "021aaa9bcef941242e49989d806454e9b00fdd82372adb18b4f1199f8c8fba21"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "580f371c5ac34b2e1fab3f310a3ac53901bf0a0c8ead1c85b22496a7ec9ef9fe",
+            "wrist_image": "6d604a0bc254659fbc3d770d74abd99a265aea1d1a0be112173516288dc2312e",
+            "state": "50b72d31e0cbf6f3a8f4efb3c5f8dbf1a5c53680a5edd85888fb45535328467a"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e87ef0b3df16c1483edddffcd73bae9d01fcdaa931dcc03b2512e37025d02b95",
+            "wrist_image": "644a7de39b271d157223348aa8660446cbd4a81d36198c9d4f8ca5eac66d4993",
+            "state": "94148a4191d55a4998c136604e8474c2ec8e2829f8bf4704d884429cc9d0c920"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "d9c69041fa33d47def0ca8a8bfba1fce5014ad16a3ea23675ccb957168c26873",
+            "wrist_image": "1f17bdfb445d6c7171e332ae9fc81bd51db88061db540c7f6506f5e9e0bffd8a",
+            "state": "c3b635926357b517a0dd54ba0b6771db52243c3f70ee3c08d4e1a69d7c1a3c6f"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "cfb2ac738e98191e7ea5fbd9741e53f50dfd75a7d2d2934b3e9267e5228a2cf4",
+            "wrist_image": "0e0d1de7028bb0dd3a3f24b38e4dde1667b7e450d06cb7800b4451b48f680853",
+            "state": "f69989dc2fe355ff45e2b5b9b59b3fb6e453d304c9e18f8ca2ccd220c2c768e8"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f7781cc456d2abf3e93ff9b0e29ac074127be574630b3083f3d83579e2898b74",
+            "wrist_image": "763484ab90030b47910195e9c59e2888bb3069e7b3feb52e231028c02ddafa37",
+            "state": "8b294d9ceaff48209c0dbfca2f45133d4cd670f0baf9824d8c63937cba229286"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "c2f054df3e81fb9b09510727c9a3c73e0b0447f5e1d3fcd3bbfc5e90188a9d7c",
+            "wrist_image": "353454cb3ff423dd4b44ed491241ffb994972675ff96e26805b1f1229e6d088f",
+            "state": "18bec7eed00b9a94e7a718afeca51d3bebe6db51c4e2bbc0660eb9af93ffc0d5"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "cc7d2da121c9d1edd98921e096bf8570d4f6985d7f55da4464f4726d16a52421",
+            "wrist_image": "655eb5a9a0d023830ea9e5bab1aad88cdc16f67a369384bf8b15fadf3c6c82c2",
+            "state": "eb918d5071b004515f29f7f8b82d8530891529e5322e36cb6b937e05470adfd1"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "08173c3ac87ec0cbface258f30ad2e60ade7b5ed2de1894ac766b03016fc6fd6",
+            "wrist_image": "77015a49f563b85333cde8d0d88fa5339c7f31206c4923a8eb5dc5703869cfaa",
+            "state": "088879c96cfdd3aa12cb835862a0911fa29a867a3f706c0c2af4c469a6e25f81"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "209518615cd2c3b4fd1630ef5352fb05e5d71839acb6beb3da896704144a787e",
+            "wrist_image": "bc0a81d17436530a814b9f1aadb031c8f416318180a0b38034b2049febbb2833",
+            "state": "9e660b7325fc276187f40a5b80ba4cc4f3caae99093b6d8072b990cccd5c84f4"
+          },
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    }
+  },
+  "persistent_runs": [
+    {
+      "task_id": 0,
+      "initial_state": 0,
+      "seed": 42,
+      "reset_seconds": 3.372503616963513,
+      "wall_seconds": 3.7100019109784625,
+      "frames": [
+        {
+          "obs": {
+            "primary_image": "ba7557cbaf38dd3e8b871a10020a34eaf6c838cf2f95807b69ca2119480a8ebb",
+            "wrist_image": "7cae682671e30832ea0fc951cea8174c8171a633742f59ba0e1508447e9a846b",
+            "state": "5eb3662bc100adf4e06a75ffdbbd6deb5df5549f51845c633ee0d5f64bb0501b"
+          }
+        },
+        {
+          "obs": {
+            "primary_image": "7667f6d3e872c8ab280f6ba5a70e6f6fd558942c60216bad7abc363b36437907",
+            "wrist_image": "ae8974b235c09afae8cdfffa5b8b04ca7a055597d964b6f81b36baca235c39d2",
+            "state": "b2bcee806ce8fab6e6af67418c896bb5dff7de6897d0117dde8ea88dab447c69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7614a3a5d4119092fb53307c4e5bfe4db1e881649e4033dc366f9b2bc5c6c07c",
+            "wrist_image": "2815b41df97622c5e0d23b9c6274723c54b7de5aaa71825f72ba727f726bc33f",
+            "state": "e8eb8a4fb61c741091185871eea9065a32c3d7d1f9cb5858e804c8e1ef4174d4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5144a98a8a67b85a86b3dea6318d155a9f693e254b0761d6d26ac10823e5d52c",
+            "wrist_image": "289ccbe478103622b1fc79275740f9cd969ace03a20f5bc236a3d8788914efe9",
+            "state": "f648aedfe048357a8e985ee74e247bdd362e06c3f96adf2651843011df77e879"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "71f88599ce8fd296c87725c628bb1afe673b29010742ec499b980a23a8467251",
+            "wrist_image": "e9709485b3b387790243738d420dc4c3fea434b5a3357e98296c295248b86950",
+            "state": "77a191c0ca551e329298fb67aa75fca6a2d828caa6121127daeb945834c7eca3"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "b915581d575512e141e91b03329fb7229e82c5f183690f8124064167ec230e5c",
+            "wrist_image": "521263fef5aaaaf2d01bc1af68b42fb6b0a757540013583a0884220b6088e666",
+            "state": "a923c7c1283ba3e2a0fc26dce50889d4c8154ef3b101f9805fa917e104f4d7c4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "388710c707b21441385a5c6a8472b6a5c4978d84b0ea3ccef56d40dc2e2dd27d",
+            "wrist_image": "0613c5e10253c304e567302b81df1c161182ea12181458e28f2f4505bc0d3cd3",
+            "state": "072a13e48600a2227cf102544d07d6df0d1fd3ea57d574af808df1ee7f479039"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "19621bb881e0ffa51b18ca63ed4fa9c9511ba0c006ee9e3d93b0f82c28032514",
+            "wrist_image": "d7821224b9be72d8c8609046c4505e0cc061136d2002f4fd868e6ddf6a1045e5",
+            "state": "b18598d7314ded47fdcd870917eb69723171bfb7c171ca86ddff8d8e85dbdff4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "561fd236c6bc4db17b62f803b2adaa992ee13ef4492ed1dcdd8e878eb2def1d6",
+            "wrist_image": "441bf2413189200040c0dc532a5ce1bab4a936e81b517ffd5bdc189ad3d03ab7",
+            "state": "1cfc7f34d115a3a2894d06e08625868591e377306bca319f38d016762d48523b"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "04a63f52d5195ab4911e08b323c2417a01bc419bc84f723aa6f4c04e24fa9695",
+            "wrist_image": "02a2fe624f7f4059331257f7a95486d2994033c63bf6b739e673281d8bd58c79",
+            "state": "7e8f2eb67e0fdf703e23e76b25b99db3a50695d2a9c38ebbb2b72ff3a5fabaa7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "10d0ed950adf22355eab1a39cc2bca01228454e197afdbe9aa57faa391eb8c62",
+            "wrist_image": "fb25f926be96fb2143226f5f0a0c5f9317d970739652509f9d2eaf274ab27ffb",
+            "state": "7a83dcba05563e9b86872ff117294a23a22d244539f73919c062f4861188a8c5"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a1c6e2896354b217dbb2c3e3f5153f6dbd19a6b004c8584abac623ec3de92284",
+            "wrist_image": "667148aae6dde250c7ef06667c23461835d625d15b2a87114c15418d5f368cfa",
+            "state": "46b0c95dfde41f3740e914bbc0ef62a679316f6a0d9ae8b744edca534204b672"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "c12c2707922a4598d452a7e7f864ea69138c93e0bf017439a379058f7c9d8247",
+            "wrist_image": "d37661e3521db3be209678e4678840ae806af194a3611a897027d1f43cd39569",
+            "state": "15d38f7e3916d04a706701b5f2ae140f9eac8d970de6da09c563f3a1162b0d69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "94621409b7a28ac936cad5532735b9d29487df0f39c5cebf8b36f0c2b9fccbba",
+            "wrist_image": "db6de17c3ab1ccd19a8554ae7840a1d41a33f0833761f303ac08a824f6192b9f",
+            "state": "aea61b72f4a29988f594a0c2a039ecb9d71bbabe111f79b54d0a7e0a32c02c0e"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "95d9818ba1d8c8345c7564a3a32dd3d30d5d5883433e04b7b01fe6f6ed5c037f",
+            "wrist_image": "33264c95293ca88b6ff55c1533ffed803d0c057631f02274b57ed96582c354f8",
+            "state": "c5be4a73063e3138aed38e094248663bcf4a087619959682c1babef8fb650626"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "3e8297e645a10901e33bb4b255c6cda63254d96af5157ccf9d0854ce685c4ee3",
+            "wrist_image": "9ec1b39ebc8bcb08fc379f045da2e1245f06b472fd2c21c09165b16b1073ecd0",
+            "state": "85895b203d4f80519e722c074c2fc7971113061d9d73066516e63ef17e73c501"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5cf4525a38c198842d43428a1a55e8c7581919fad4d7ea8647598a0a7c094987",
+            "wrist_image": "dee6e37856eb18e45595bb22b5ee7f4842daafa4f94a1295196756f4cd1707be",
+            "state": "d16b9bd96e17d279f6fa4332befcf85d047fbb637026bab9caf2f62487cb5ef7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e266aaf53eaa49267c1dbb5190e2e4a6d5c4e1567e45440af35755cb8a25218e",
+            "wrist_image": "f3a15c4a69c0bf5af1a715635ba2b1b6babb2385ad62a23d00bec8f4e1f04b3c",
+            "state": "84475bca4c187f4f6a1b7cbf793a32d99bf6a086194f67f044e93db63e8ad779"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "ee2c9e4c11d1417425a7ad89889e607aaced32610635ae2c8199ca725f87ead8",
+            "wrist_image": "d720e31da8c0f3b060f242fba0514110e0c2588882c0a2cbdb8a6e47892ca9c3",
+            "state": "a7c3403101943762a6c1cb2586dc9a884e3865a592e7e73c5bbf242228cb9556"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7d07bfde0ad9effb5f69efa4f8d3275ddc62e9a3f7841badc29f89aee4013fc0",
+            "wrist_image": "f0a3563f7014f4b1f139b58400203d34c3b2e171612d7a97031ad877ad9428cd",
+            "state": "30ceb83dc092142bea4f2b9ec10efa68c9f733d11938c6d0f2a3f94f30460b40"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e4f4e0ea078c88919e781f4425f9503394984ca4527b07228c15e60bfd58308c",
+            "wrist_image": "37b3c4d2ba41319845db0a686c34adadb91bd688b9b2eef41dab4014804df40a",
+            "state": "ee2245572f7f413f5d6eb8a404ba37c015c35a6f0e1a2905e7867cb548286819"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f94c1154a8c992f3afd7caa1117f13fe97c1d3c48fa04d7aac509eef46b51698",
+            "wrist_image": "c00c39bb3d3f184f98ca3e9db7892c3415adeac4d778dc489e462c0ec68ed2ea",
+            "state": "e04fcb2e7fbc103d8844816dce97fbb5084fd06c12100bcce0b9bed7b658e579"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "30da84ecd4adec1b625b81e16902d1d2bef6640197329e54219852f1c0b3c69e",
+            "wrist_image": "79d51948409d916c79b827b85b138c09236bb2e79f3e57562eb86f4f5ca9b925",
+            "state": "d6a1cb47d635189b7284e3235d46e496f80732872c8bb26a1a0dfcb96a72e435"
+          },
+          "reward": 0.0,
+          "done": false
+        }
+      ],
+      "label": "first",
+      "worker_pid": 4186967,
+      "pixel_state_reward_done_equal": true
+    },
+    {
+      "task_id": 0,
+      "initial_state": 0,
+      "seed": 42,
+      "reset_seconds": 2.464708256011363,
+      "wall_seconds": 2.7776354610105045,
+      "frames": [
+        {
+          "obs": {
+            "primary_image": "ba7557cbaf38dd3e8b871a10020a34eaf6c838cf2f95807b69ca2119480a8ebb",
+            "wrist_image": "7cae682671e30832ea0fc951cea8174c8171a633742f59ba0e1508447e9a846b",
+            "state": "5eb3662bc100adf4e06a75ffdbbd6deb5df5549f51845c633ee0d5f64bb0501b"
+          }
+        },
+        {
+          "obs": {
+            "primary_image": "7667f6d3e872c8ab280f6ba5a70e6f6fd558942c60216bad7abc363b36437907",
+            "wrist_image": "ae8974b235c09afae8cdfffa5b8b04ca7a055597d964b6f81b36baca235c39d2",
+            "state": "b2bcee806ce8fab6e6af67418c896bb5dff7de6897d0117dde8ea88dab447c69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7614a3a5d4119092fb53307c4e5bfe4db1e881649e4033dc366f9b2bc5c6c07c",
+            "wrist_image": "2815b41df97622c5e0d23b9c6274723c54b7de5aaa71825f72ba727f726bc33f",
+            "state": "e8eb8a4fb61c741091185871eea9065a32c3d7d1f9cb5858e804c8e1ef4174d4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5144a98a8a67b85a86b3dea6318d155a9f693e254b0761d6d26ac10823e5d52c",
+            "wrist_image": "289ccbe478103622b1fc79275740f9cd969ace03a20f5bc236a3d8788914efe9",
+            "state": "f648aedfe048357a8e985ee74e247bdd362e06c3f96adf2651843011df77e879"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "71f88599ce8fd296c87725c628bb1afe673b29010742ec499b980a23a8467251",
+            "wrist_image": "e9709485b3b387790243738d420dc4c3fea434b5a3357e98296c295248b86950",
+            "state": "77a191c0ca551e329298fb67aa75fca6a2d828caa6121127daeb945834c7eca3"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "b915581d575512e141e91b03329fb7229e82c5f183690f8124064167ec230e5c",
+            "wrist_image": "521263fef5aaaaf2d01bc1af68b42fb6b0a757540013583a0884220b6088e666",
+            "state": "a923c7c1283ba3e2a0fc26dce50889d4c8154ef3b101f9805fa917e104f4d7c4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "388710c707b21441385a5c6a8472b6a5c4978d84b0ea3ccef56d40dc2e2dd27d",
+            "wrist_image": "0613c5e10253c304e567302b81df1c161182ea12181458e28f2f4505bc0d3cd3",
+            "state": "072a13e48600a2227cf102544d07d6df0d1fd3ea57d574af808df1ee7f479039"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "19621bb881e0ffa51b18ca63ed4fa9c9511ba0c006ee9e3d93b0f82c28032514",
+            "wrist_image": "d7821224b9be72d8c8609046c4505e0cc061136d2002f4fd868e6ddf6a1045e5",
+            "state": "b18598d7314ded47fdcd870917eb69723171bfb7c171ca86ddff8d8e85dbdff4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "561fd236c6bc4db17b62f803b2adaa992ee13ef4492ed1dcdd8e878eb2def1d6",
+            "wrist_image": "441bf2413189200040c0dc532a5ce1bab4a936e81b517ffd5bdc189ad3d03ab7",
+            "state": "1cfc7f34d115a3a2894d06e08625868591e377306bca319f38d016762d48523b"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "04a63f52d5195ab4911e08b323c2417a01bc419bc84f723aa6f4c04e24fa9695",
+            "wrist_image": "02a2fe624f7f4059331257f7a95486d2994033c63bf6b739e673281d8bd58c79",
+            "state": "7e8f2eb67e0fdf703e23e76b25b99db3a50695d2a9c38ebbb2b72ff3a5fabaa7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "10d0ed950adf22355eab1a39cc2bca01228454e197afdbe9aa57faa391eb8c62",
+            "wrist_image": "fb25f926be96fb2143226f5f0a0c5f9317d970739652509f9d2eaf274ab27ffb",
+            "state": "7a83dcba05563e9b86872ff117294a23a22d244539f73919c062f4861188a8c5"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a1c6e2896354b217dbb2c3e3f5153f6dbd19a6b004c8584abac623ec3de92284",
+            "wrist_image": "667148aae6dde250c7ef06667c23461835d625d15b2a87114c15418d5f368cfa",
+            "state": "46b0c95dfde41f3740e914bbc0ef62a679316f6a0d9ae8b744edca534204b672"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "c12c2707922a4598d452a7e7f864ea69138c93e0bf017439a379058f7c9d8247",
+            "wrist_image": "d37661e3521db3be209678e4678840ae806af194a3611a897027d1f43cd39569",
+            "state": "15d38f7e3916d04a706701b5f2ae140f9eac8d970de6da09c563f3a1162b0d69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "94621409b7a28ac936cad5532735b9d29487df0f39c5cebf8b36f0c2b9fccbba",
+            "wrist_image": "db6de17c3ab1ccd19a8554ae7840a1d41a33f0833761f303ac08a824f6192b9f",
+            "state": "aea61b72f4a29988f594a0c2a039ecb9d71bbabe111f79b54d0a7e0a32c02c0e"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "95d9818ba1d8c8345c7564a3a32dd3d30d5d5883433e04b7b01fe6f6ed5c037f",
+            "wrist_image": "33264c95293ca88b6ff55c1533ffed803d0c057631f02274b57ed96582c354f8",
+            "state": "c5be4a73063e3138aed38e094248663bcf4a087619959682c1babef8fb650626"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "3e8297e645a10901e33bb4b255c6cda63254d96af5157ccf9d0854ce685c4ee3",
+            "wrist_image": "9ec1b39ebc8bcb08fc379f045da2e1245f06b472fd2c21c09165b16b1073ecd0",
+            "state": "85895b203d4f80519e722c074c2fc7971113061d9d73066516e63ef17e73c501"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5cf4525a38c198842d43428a1a55e8c7581919fad4d7ea8647598a0a7c094987",
+            "wrist_image": "dee6e37856eb18e45595bb22b5ee7f4842daafa4f94a1295196756f4cd1707be",
+            "state": "d16b9bd96e17d279f6fa4332befcf85d047fbb637026bab9caf2f62487cb5ef7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e266aaf53eaa49267c1dbb5190e2e4a6d5c4e1567e45440af35755cb8a25218e",
+            "wrist_image": "f3a15c4a69c0bf5af1a715635ba2b1b6babb2385ad62a23d00bec8f4e1f04b3c",
+            "state": "84475bca4c187f4f6a1b7cbf793a32d99bf6a086194f67f044e93db63e8ad779"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "ee2c9e4c11d1417425a7ad89889e607aaced32610635ae2c8199ca725f87ead8",
+            "wrist_image": "d720e31da8c0f3b060f242fba0514110e0c2588882c0a2cbdb8a6e47892ca9c3",
+            "state": "a7c3403101943762a6c1cb2586dc9a884e3865a592e7e73c5bbf242228cb9556"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7d07bfde0ad9effb5f69efa4f8d3275ddc62e9a3f7841badc29f89aee4013fc0",
+            "wrist_image": "f0a3563f7014f4b1f139b58400203d34c3b2e171612d7a97031ad877ad9428cd",
+            "state": "30ceb83dc092142bea4f2b9ec10efa68c9f733d11938c6d0f2a3f94f30460b40"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e4f4e0ea078c88919e781f4425f9503394984ca4527b07228c15e60bfd58308c",
+            "wrist_image": "37b3c4d2ba41319845db0a686c34adadb91bd688b9b2eef41dab4014804df40a",
+            "state": "ee2245572f7f413f5d6eb8a404ba37c015c35a6f0e1a2905e7867cb548286819"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f94c1154a8c992f3afd7caa1117f13fe97c1d3c48fa04d7aac509eef46b51698",
+            "wrist_image": "c00c39bb3d3f184f98ca3e9db7892c3415adeac4d778dc489e462c0ec68ed2ea",
+            "state": "e04fcb2e7fbc103d8844816dce97fbb5084fd06c12100bcce0b9bed7b658e579"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "30da84ecd4adec1b625b81e16902d1d2bef6640197329e54219852f1c0b3c69e",
+            "wrist_image": "79d51948409d916c79b827b85b138c09236bb2e79f3e57562eb86f4f5ca9b925",
+            "state": "d6a1cb47d635189b7284e3235d46e496f80732872c8bb26a1a0dfcb96a72e435"
+          },
+          "reward": 0.0,
+          "done": false
+        }
+      ],
+      "label": "repeat",
+      "worker_pid": 4186967,
+      "pixel_state_reward_done_equal": true
+    },
+    {
+      "task_id": 1,
+      "initial_state": 0,
+      "seed": 42,
+      "reset_seconds": 2.5559937689686194,
+      "wall_seconds": 2.8996430980041623,
+      "frames": [
+        {
+          "obs": {
+            "primary_image": "2c970d593b303581b5060de7a322f39fa719601a9e9eb6db8d73f05e48fff99e",
+            "wrist_image": "186da85a6c101f2691c6ea1ff31e933346e2cd9d38cd3ed3f27d86ddf11e6b76",
+            "state": "a5bed5e6b8eac5ce97bdc6d518e83d6997b82cee4a3eb2e1e9e6248e2aeb3414"
+          }
+        },
+        {
+          "obs": {
+            "primary_image": "a953f086b43473419a174d3d05f509d880ebed5d8e154616199a815ff27c6332",
+            "wrist_image": "e6e7e856ed7a576c0d12e53b56393b46f3a521d783db0b8c6b2ab5a253cd01b5",
+            "state": "be9b0b4e5d0f7b5a2475506a43b69c89ca002935a33e107e34426d6cb38794f1"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "979597ed39e54a1fc56284d30b16dec410daa35efa9c693b385a186221ac8c45",
+            "wrist_image": "cd99a68bf5693526caf6d543c33f09457514564fe2d4525faf176422bd74984a",
+            "state": "52d0f5bf508f2c21669caf98f892a4d7c021b905afcba8c24292a16f07de2abb"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "ce40f4d7b5e093c417b730cd79c744d2c34d49d6af3e388573dd14a278677be1",
+            "wrist_image": "16c69d47d69ec9f20c46807aa38289c8258440a251a8b52c059e03f01a73f440",
+            "state": "d6ce7d64dcdf4ad06eede45bd448693036102d75697a45d853addd16939bc82d"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f114abd90a257d390db38d0dd024a9184db9f36db3c0d88555e4180bc5ac293c",
+            "wrist_image": "b922dc38ea809a7f7d8185afc3291fe7a5153153424f69eb303ce124d7d19894",
+            "state": "fef146ab845f22a41713751c75b2a3e4a3112e09c5d3c0ffb031331b14993bd6"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "2c50048f026499192de8db4e713ad96027258fff3849f285284a4776dfd747e3",
+            "wrist_image": "798ad99c1cc07c65b9a915433eac20169632491e26c2f8bb43017d74bb99cb2d",
+            "state": "5003a9211139b7aceee32e0b7c0aa8fa7387a7fe6f1aa3004786f2f24c27a7ec"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f58f3de3ab7cd1d31f4a69c7c8c0ba40819ec9e04e331f32bca37a9453d218ef",
+            "wrist_image": "0c2e4c05ee9423e466b020d7a935ff8d37df7427f4f8b564863d6909df7c231e",
+            "state": "a82b12cfecddd215a416d969e14c2ec538e43b729e070ed823fdedfc4b02915a"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "23f8b710d058c0470e16a893230de981f97a545f7e8d2e65d3095bd78df9f659",
+            "wrist_image": "a98ed6d63accbe69cf930fe88f5a51a0892b59d9c803dc49464584af381ecb67",
+            "state": "013bf60adb6c9b3334195fb18a3487f270c43f4ae29e7bf5909d48256d772acc"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a6c948690cfb1cae5ffa78272ff7f967c9c017afacc92e317332e686c10ac1af",
+            "wrist_image": "2cad40b58773bb6caee198b78f26496be4f982133bb0268db7ea1bb0f3b73419",
+            "state": "3917df4fb71c6087984c38cd3fdb2c7d3849c0b21e9bb2d5df6fa1dbb335f2c3"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "cd9ceabf23a83f3599e63ca5f7d51e14edbdf3a8167628a9957df607a7a9f368",
+            "wrist_image": "ee2469b917845b7ec8c260ce57d3242326f4e83d8a7b5e69a15bc7027075d236",
+            "state": "c1ef4f781b455b95da89caca6904f3bbdf4fafb8d1147d835dd4fd991ece2a46"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "22b3bb72ff95de302c0fa15aab35c72d324e4e295faabaf46697c9650924597d",
+            "wrist_image": "c43334fa42f91a670da80743d46710741549203658733af7fc8574c65a66e067",
+            "state": "7cc75e142d1b31df3a2d302b4257f280dff621ecdca6b138a7e0a2956d51ffdd"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "8e26f0fafb7c9ac35793a4c239670f15aaabc17a33dc9e97a1f6bb26302d97b7",
+            "wrist_image": "8fbe7a5781f6e62ea4d2190eea84c137193d2b161f4b7553c57325ff0d3379b1",
+            "state": "30e612125fd0dfb4578750bc5755aed9210ad903d2916852b4dc19f84e1164be"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "be3ab021a565c4787091300f2ad25f7356b9faff632beeee9738eb446778eb65",
+            "wrist_image": "101dfb11f1d284930cb36b99553a4cc1d9f2f174cc75bcaa54639cd4eb8579d9",
+            "state": "d3c4c18c8b374afe3cf281cbc71307e3e29d021becc123bdddc97dc0b7f19698"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a1a5554b1aa2376dc74331e25df3934fa56efedd0f376a400ed690e8ff1dcd12",
+            "wrist_image": "3f17e0126ce645760e0a0caa9b769a5e7b906ff838a84e63266f37c8f9836955",
+            "state": "021aaa9bcef941242e49989d806454e9b00fdd82372adb18b4f1199f8c8fba21"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "580f371c5ac34b2e1fab3f310a3ac53901bf0a0c8ead1c85b22496a7ec9ef9fe",
+            "wrist_image": "6d604a0bc254659fbc3d770d74abd99a265aea1d1a0be112173516288dc2312e",
+            "state": "50b72d31e0cbf6f3a8f4efb3c5f8dbf1a5c53680a5edd85888fb45535328467a"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e87ef0b3df16c1483edddffcd73bae9d01fcdaa931dcc03b2512e37025d02b95",
+            "wrist_image": "644a7de39b271d157223348aa8660446cbd4a81d36198c9d4f8ca5eac66d4993",
+            "state": "94148a4191d55a4998c136604e8474c2ec8e2829f8bf4704d884429cc9d0c920"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "d9c69041fa33d47def0ca8a8bfba1fce5014ad16a3ea23675ccb957168c26873",
+            "wrist_image": "1f17bdfb445d6c7171e332ae9fc81bd51db88061db540c7f6506f5e9e0bffd8a",
+            "state": "c3b635926357b517a0dd54ba0b6771db52243c3f70ee3c08d4e1a69d7c1a3c6f"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "cfb2ac738e98191e7ea5fbd9741e53f50dfd75a7d2d2934b3e9267e5228a2cf4",
+            "wrist_image": "0e0d1de7028bb0dd3a3f24b38e4dde1667b7e450d06cb7800b4451b48f680853",
+            "state": "f69989dc2fe355ff45e2b5b9b59b3fb6e453d304c9e18f8ca2ccd220c2c768e8"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f7781cc456d2abf3e93ff9b0e29ac074127be574630b3083f3d83579e2898b74",
+            "wrist_image": "763484ab90030b47910195e9c59e2888bb3069e7b3feb52e231028c02ddafa37",
+            "state": "8b294d9ceaff48209c0dbfca2f45133d4cd670f0baf9824d8c63937cba229286"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "c2f054df3e81fb9b09510727c9a3c73e0b0447f5e1d3fcd3bbfc5e90188a9d7c",
+            "wrist_image": "353454cb3ff423dd4b44ed491241ffb994972675ff96e26805b1f1229e6d088f",
+            "state": "18bec7eed00b9a94e7a718afeca51d3bebe6db51c4e2bbc0660eb9af93ffc0d5"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "cc7d2da121c9d1edd98921e096bf8570d4f6985d7f55da4464f4726d16a52421",
+            "wrist_image": "655eb5a9a0d023830ea9e5bab1aad88cdc16f67a369384bf8b15fadf3c6c82c2",
+            "state": "eb918d5071b004515f29f7f8b82d8530891529e5322e36cb6b937e05470adfd1"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "08173c3ac87ec0cbface258f30ad2e60ade7b5ed2de1894ac766b03016fc6fd6",
+            "wrist_image": "77015a49f563b85333cde8d0d88fa5339c7f31206c4923a8eb5dc5703869cfaa",
+            "state": "088879c96cfdd3aa12cb835862a0911fa29a867a3f706c0c2af4c469a6e25f81"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "209518615cd2c3b4fd1630ef5352fb05e5d71839acb6beb3da896704144a787e",
+            "wrist_image": "bc0a81d17436530a814b9f1aadb031c8f416318180a0b38034b2049febbb2833",
+            "state": "9e660b7325fc276187f40a5b80ba4cc4f3caae99093b6d8072b990cccd5c84f4"
+          },
+          "reward": 0.0,
+          "done": false
+        }
+      ],
+      "label": "switch",
+      "worker_pid": 4186967,
+      "pixel_state_reward_done_equal": true
+    },
+    {
+      "task_id": 0,
+      "initial_state": 0,
+      "seed": 42,
+      "reset_seconds": 2.506494614004623,
+      "wall_seconds": 2.828041311004199,
+      "frames": [
+        {
+          "obs": {
+            "primary_image": "ba7557cbaf38dd3e8b871a10020a34eaf6c838cf2f95807b69ca2119480a8ebb",
+            "wrist_image": "7cae682671e30832ea0fc951cea8174c8171a633742f59ba0e1508447e9a846b",
+            "state": "5eb3662bc100adf4e06a75ffdbbd6deb5df5549f51845c633ee0d5f64bb0501b"
+          }
+        },
+        {
+          "obs": {
+            "primary_image": "7667f6d3e872c8ab280f6ba5a70e6f6fd558942c60216bad7abc363b36437907",
+            "wrist_image": "ae8974b235c09afae8cdfffa5b8b04ca7a055597d964b6f81b36baca235c39d2",
+            "state": "b2bcee806ce8fab6e6af67418c896bb5dff7de6897d0117dde8ea88dab447c69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7614a3a5d4119092fb53307c4e5bfe4db1e881649e4033dc366f9b2bc5c6c07c",
+            "wrist_image": "2815b41df97622c5e0d23b9c6274723c54b7de5aaa71825f72ba727f726bc33f",
+            "state": "e8eb8a4fb61c741091185871eea9065a32c3d7d1f9cb5858e804c8e1ef4174d4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5144a98a8a67b85a86b3dea6318d155a9f693e254b0761d6d26ac10823e5d52c",
+            "wrist_image": "289ccbe478103622b1fc79275740f9cd969ace03a20f5bc236a3d8788914efe9",
+            "state": "f648aedfe048357a8e985ee74e247bdd362e06c3f96adf2651843011df77e879"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "71f88599ce8fd296c87725c628bb1afe673b29010742ec499b980a23a8467251",
+            "wrist_image": "e9709485b3b387790243738d420dc4c3fea434b5a3357e98296c295248b86950",
+            "state": "77a191c0ca551e329298fb67aa75fca6a2d828caa6121127daeb945834c7eca3"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "b915581d575512e141e91b03329fb7229e82c5f183690f8124064167ec230e5c",
+            "wrist_image": "521263fef5aaaaf2d01bc1af68b42fb6b0a757540013583a0884220b6088e666",
+            "state": "a923c7c1283ba3e2a0fc26dce50889d4c8154ef3b101f9805fa917e104f4d7c4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "388710c707b21441385a5c6a8472b6a5c4978d84b0ea3ccef56d40dc2e2dd27d",
+            "wrist_image": "0613c5e10253c304e567302b81df1c161182ea12181458e28f2f4505bc0d3cd3",
+            "state": "072a13e48600a2227cf102544d07d6df0d1fd3ea57d574af808df1ee7f479039"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "19621bb881e0ffa51b18ca63ed4fa9c9511ba0c006ee9e3d93b0f82c28032514",
+            "wrist_image": "d7821224b9be72d8c8609046c4505e0cc061136d2002f4fd868e6ddf6a1045e5",
+            "state": "b18598d7314ded47fdcd870917eb69723171bfb7c171ca86ddff8d8e85dbdff4"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "561fd236c6bc4db17b62f803b2adaa992ee13ef4492ed1dcdd8e878eb2def1d6",
+            "wrist_image": "441bf2413189200040c0dc532a5ce1bab4a936e81b517ffd5bdc189ad3d03ab7",
+            "state": "1cfc7f34d115a3a2894d06e08625868591e377306bca319f38d016762d48523b"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "04a63f52d5195ab4911e08b323c2417a01bc419bc84f723aa6f4c04e24fa9695",
+            "wrist_image": "02a2fe624f7f4059331257f7a95486d2994033c63bf6b739e673281d8bd58c79",
+            "state": "7e8f2eb67e0fdf703e23e76b25b99db3a50695d2a9c38ebbb2b72ff3a5fabaa7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "10d0ed950adf22355eab1a39cc2bca01228454e197afdbe9aa57faa391eb8c62",
+            "wrist_image": "fb25f926be96fb2143226f5f0a0c5f9317d970739652509f9d2eaf274ab27ffb",
+            "state": "7a83dcba05563e9b86872ff117294a23a22d244539f73919c062f4861188a8c5"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "a1c6e2896354b217dbb2c3e3f5153f6dbd19a6b004c8584abac623ec3de92284",
+            "wrist_image": "667148aae6dde250c7ef06667c23461835d625d15b2a87114c15418d5f368cfa",
+            "state": "46b0c95dfde41f3740e914bbc0ef62a679316f6a0d9ae8b744edca534204b672"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "c12c2707922a4598d452a7e7f864ea69138c93e0bf017439a379058f7c9d8247",
+            "wrist_image": "d37661e3521db3be209678e4678840ae806af194a3611a897027d1f43cd39569",
+            "state": "15d38f7e3916d04a706701b5f2ae140f9eac8d970de6da09c563f3a1162b0d69"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "94621409b7a28ac936cad5532735b9d29487df0f39c5cebf8b36f0c2b9fccbba",
+            "wrist_image": "db6de17c3ab1ccd19a8554ae7840a1d41a33f0833761f303ac08a824f6192b9f",
+            "state": "aea61b72f4a29988f594a0c2a039ecb9d71bbabe111f79b54d0a7e0a32c02c0e"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "95d9818ba1d8c8345c7564a3a32dd3d30d5d5883433e04b7b01fe6f6ed5c037f",
+            "wrist_image": "33264c95293ca88b6ff55c1533ffed803d0c057631f02274b57ed96582c354f8",
+            "state": "c5be4a73063e3138aed38e094248663bcf4a087619959682c1babef8fb650626"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "3e8297e645a10901e33bb4b255c6cda63254d96af5157ccf9d0854ce685c4ee3",
+            "wrist_image": "9ec1b39ebc8bcb08fc379f045da2e1245f06b472fd2c21c09165b16b1073ecd0",
+            "state": "85895b203d4f80519e722c074c2fc7971113061d9d73066516e63ef17e73c501"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "5cf4525a38c198842d43428a1a55e8c7581919fad4d7ea8647598a0a7c094987",
+            "wrist_image": "dee6e37856eb18e45595bb22b5ee7f4842daafa4f94a1295196756f4cd1707be",
+            "state": "d16b9bd96e17d279f6fa4332befcf85d047fbb637026bab9caf2f62487cb5ef7"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e266aaf53eaa49267c1dbb5190e2e4a6d5c4e1567e45440af35755cb8a25218e",
+            "wrist_image": "f3a15c4a69c0bf5af1a715635ba2b1b6babb2385ad62a23d00bec8f4e1f04b3c",
+            "state": "84475bca4c187f4f6a1b7cbf793a32d99bf6a086194f67f044e93db63e8ad779"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "ee2c9e4c11d1417425a7ad89889e607aaced32610635ae2c8199ca725f87ead8",
+            "wrist_image": "d720e31da8c0f3b060f242fba0514110e0c2588882c0a2cbdb8a6e47892ca9c3",
+            "state": "a7c3403101943762a6c1cb2586dc9a884e3865a592e7e73c5bbf242228cb9556"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "7d07bfde0ad9effb5f69efa4f8d3275ddc62e9a3f7841badc29f89aee4013fc0",
+            "wrist_image": "f0a3563f7014f4b1f139b58400203d34c3b2e171612d7a97031ad877ad9428cd",
+            "state": "30ceb83dc092142bea4f2b9ec10efa68c9f733d11938c6d0f2a3f94f30460b40"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "e4f4e0ea078c88919e781f4425f9503394984ca4527b07228c15e60bfd58308c",
+            "wrist_image": "37b3c4d2ba41319845db0a686c34adadb91bd688b9b2eef41dab4014804df40a",
+            "state": "ee2245572f7f413f5d6eb8a404ba37c015c35a6f0e1a2905e7867cb548286819"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "f94c1154a8c992f3afd7caa1117f13fe97c1d3c48fa04d7aac509eef46b51698",
+            "wrist_image": "c00c39bb3d3f184f98ca3e9db7892c3415adeac4d778dc489e462c0ec68ed2ea",
+            "state": "e04fcb2e7fbc103d8844816dce97fbb5084fd06c12100bcce0b9bed7b658e579"
+          },
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "obs": {
+            "primary_image": "30da84ecd4adec1b625b81e16902d1d2bef6640197329e54219852f1c0b3c69e",
+            "wrist_image": "79d51948409d916c79b827b85b138c09236bb2e79f3e57562eb86f4f5ca9b925",
+            "state": "d6a1cb47d635189b7284e3235d46e496f80732872c8bb26a1a0dfcb96a72e435"
+          },
+          "reward": 0.0,
+          "done": false
+        }
+      ],
+      "label": "switch_back",
+      "worker_pid": 4186967,
+      "pixel_state_reward_done_equal": true
+    }
+  ]
+}

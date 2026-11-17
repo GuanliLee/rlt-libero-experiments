@@ -1,0 +1,127 @@
+{
+  "source": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages",
+  "destination": "/opt/shared_assets/8t/lgl/RLT/envs/alphabrain/lib/python3.11/site-packages",
+  "required_by": "torch 2.7.1+cu128",
+  "packages": [
+    {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.61",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cuda_nvrtc_cu12-12.8.61.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.57",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cuda_runtime_cu12-12.8.57.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.57",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cuda_cupti_cu12-12.8.57.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.7.1.26",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cudnn_cu12-9.7.1.26.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.8.3.14",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cublas_cu12-12.8.3.14.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.3.3.41",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cufft_cu12-11.3.3.41.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.9.55",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_curand_cu12-10.3.9.55.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.2.55",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cusolver_cu12-11.7.2.55.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.7.53",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cusparse_cu12-12.5.7.53.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.6.3",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cusparselt_cu12-0.6.3.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.26.2",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_nccl_cu12-2.26.2.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.8.55",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_nvtx_cu12-12.8.55.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.8.61",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_nvjitlink_cu12-12.8.61.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "nvidia-cufile-cu12",
+      "version": "1.13.0.11",
+      "source_dist_info": "/home/ligl/miniconda3/envs/graspnet/lib/python3.10/site-packages/nvidia_cufile_cu12-1.13.0.11.dist-info",
+      "wheel_tag": "py3-none-linux",
+      "record_hashes_verified": true
+    },
+    {
+      "name": "triton",
+      "version": "3.3.1",
+      "source_dist_info": "/home/ligl/openpi/.venv/lib/python3.11/site-packages/triton-3.3.1.dist-info",
+      "wheel_tag": "cp311-cp311-manylinux_x86_64",
+      "record_hashes_verified": true
+    }
+  ],
+  "verified_file_records": 710,
+  "entrypoint_relocations": [
+    {
+      "path": "/opt/shared_assets/8t/lgl/RLT/envs/alphabrain/bin/proton",
+      "original_shebang": "#!/home/ligl/openpi/.venv/bin/python3",
+      "new_shebang": "#!/opt/shared_assets/8t/lgl/RLT/envs/alphabrain/bin/python",
+      "sha256": "e191d81de3e5f747a1f721c3fc61af9b8c02cb2507eb139f72189125980225e2"
+    },
+    {
+      "path": "/opt/shared_assets/8t/lgl/RLT/envs/alphabrain/bin/proton-viewer",
+      "original_shebang": "#!/home/ligl/openpi/.venv/bin/python3",
+      "new_shebang": "#!/opt/shared_assets/8t/lgl/RLT/envs/alphabrain/bin/python",
+      "sha256": "f2fc8a6b88d551b197eb140655f0d97577cf590cb0088a6d5c41de95a8063f19"
+    }
+  ]
+}

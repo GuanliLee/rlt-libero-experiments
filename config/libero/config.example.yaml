@@ -1,0 +1,6 @@
+# Run python scripts/configure_libero.py to generate config.yaml for your checkout.
+benchmark_root: /path/to/LIBERO/libero/libero
+bddl_files: /path/to/LIBERO/libero/libero/bddl_files
+init_states: /path/to/LIBERO/libero/libero/init_files
+assets: /path/to/LIBERO/libero/libero/assets
+datasets: /path/to/datasets/libero

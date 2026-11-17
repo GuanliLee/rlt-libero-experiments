@@ -1,0 +1,8 @@
+[
+  "Zero residual actor exactly preserves pi output",
+  "Residual stays within bound",
+  "Terminal return and duration discount correct",
+  "Delayed actor update really changes parameters",
+  "BC-only remains exact identity with zero residual initialization",
+  "Target actor has no gradient"
+]

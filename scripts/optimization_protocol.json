@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "status": "proposed_experiment_not_a_demonstrated_improvement",
+  "created_date": "2026-09-08",
+  "root": "/opt/shared_assets/8t/lgl/RLT",
+  "objective": {
+    "default": "improve_macro_success_rate_across_all_10_libero_goal_tasks",
+    "primary_metric": "mean_of_per_task_success_rates",
+    "secondary_metrics": [
+      "paired_win_count",
+      "paired_loss_count",
+      "action_steps_when_both_succeed",
+      "inference_latency"
+    ],
+    "success_claim_requires_locked_test": true,
+    "guaranteed_improvement": false
+  },
+  "environment": {
+    "suite": "libero_goal",
+    "task_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "max_action_steps": 320,
+    "initial_wait_steps": 10,
+    "action_chunk_length": 8,
+    "image_size": [
+      256,
+      256
+    ],
+    "cameras": [
+      "primary",
+      "wrist"
+    ],
+    "evaluation_seed": 42,
+    "evaluation_deterministic": true,
+    "evaluation_exploration_std": 0,
+    "evaluation_reference_dropout": 0,
+    "same_postprocessing_for_all_policies": true
+  },
+  "splits": {
+    "training_initial_state_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "validation_initial_state_ids": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "locked_test_initial_state_ids": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "validation_allowed_for": [
+      "checkpoint_selection",
+      "hyperparameter_selection",
+      "failure_analysis"
+    ],
+    "locked_test_allowed_after": "freeze_candidate_configuration_and_checkpoint",
+    "published_checkpoint_history": "unknown_initial_state_overlap; holdout_is_relative_to_this_new_training_only",
+    "prohibit_validation_or_test_transitions_in_replay": true
+  },
+  "controls": [
+    {
+      "name": "base_vla",
+      "description": "Frozen QwenOFT reference actions without encoder or actor execution"
+    },
+    {
+      "name": "released_rlt_a",
+      "description": "Unmodified published encoder and actor, deterministic evaluation"
+    },
+    {
+      "name": "bc_only",
+      "description": "Same actor initialization and BC calibration as the candidate, before TD3 updates"
+    },
+    {
+      "name": "optimized_rlt_a",
+      "description": "Selected TD3 candidate; identical base VLA, encoder, observations and action execution"
+    }
+  ],
+  "initialization": {
+    "vla_checkpoint": "checkpoints/qwenoft_5traj",
+    "encoder_checkpoint": "checkpoints/rlt_a/rl_offpolicy_iter_00400/encoder.pt",
+    "actor_warm_start": "checkpoints/rlt_a/rl_offpolicy_iter_00400/actor.pt",
+    "vla_frozen": true,
+    "encoder_frozen": true,
+    "strict_tensor_loading": true,
+    "critic_default": "fresh_initialization_then_calibration_on_training_replay",
+    "critic_reason": "Do not automatically inherit value estimates from the old training implementation",
+    "target_networks": "copy_from_online_networks_after_weight_initialization",
+    "replay": "new_replay_from_training_initial_states_only",
+    "resume_kind": "weight_warm_start_not_exact_optimizer_or_replay_resume",
+    "bc_calibration": "Supervise actor on base VLA actions from training rollouts; save a BC-only control before RL"
+  },
+  "single_gpu_start": {
+    "gpu": "RTX 5090 32GB",
+    "rollout_gpu": 0,
+    "training_gpu": 0,
+    "frozen_vla_copies": 1,
+    "initial_concurrent_environments": 1,
+    "initial_vla_batch_size": 1,
+    "maximum_after_measured_memory_check": 2,
+    "evaluation": "serial_and_separate_from_training_rollouts",
+    "attention": "sdpa_same_as_local_baseline",
+    "precision": "bf16_VLA_fp32_small_networks",
+    "provisional_gpu_budget_gib": [
+      12,
+      20
+    ],
+    "gpu_budget_is_measured": false,
+    "gpu_budget_basis": "Local inference peak approximately 9.35 GiB reserved, plus training modules, replay minibatches and rendering; exact training peak remains unmeasured",
+    "memory_headroom_gib": 3,
+    "external_gpu_jobs": "preserve; reduce batch or postpone if available memory is insufficient",
+    "live_viewer": "do_not_keep_a_second_VLA_copy_resident_during_training"
+  },
+  "shared_candidate_parameters": {
+    "actor_lr": 1e-05,
+    "critic_lr": 0.0003,
+    "gamma_per_environment_step": 0.99,
+    "terminal_success_reward": 5.0,
+    "otherwise_reward": 0.0,
+    "tau": 0.005,
+    "actor_update_every_global_critic_updates": 2,
+    "target_noise_std": 0.2,
+    "target_noise_clip": 0.5,
+    "exploration_std": 0.05,
+    "reference_dropout": 0.1,
+    "td_batch_size": 128,
+    "buffer_capacity_transitions": 100000,
+    "buffer_warmup_transitions": "Warmup one baseline episode per task; require at least two transitions for updates; record actual batch sizes.",
+    "max_grad_norm": 1.0,
+    "remarks": "Conservative pilot starting hypotheses, not verified optimal; smoke disables pretraining and limits BC to two steps. Fixed update count replaces upstream UTD scheduling. Record actual balanced batch sizes.",
+    "updates_per_episode": 32,
+    "critic_pretrain_steps": 128,
+    "bc_calibration_steps": 128
+  },
+  "candidates": [
+    {
+      "name": "conservative_beta1",
+      "beta": 1.0
+    },
+    {
+      "name": "conservative_beta3",
+      "beta": 3.0
+    }
+  ],
+  "budgets": {
+    "smoke": "1 training initial state; establish nonzero Actor and Critic updates, real new environment transitions, finite losses, checkpoint reload and correct split",
+    "pilot": "First 200 new training episodes per candidate in a declared task scope, including data collection for warmup; checkpoint every 50 episodes",
+    "pilot_initial_seed": 42,
+    "extend_only_if": "correctness checks pass, validation signal is useful, and actual interaction cost is measured",
+    "confirmation_training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "report_all": [
+      "environment_steps",
+      "episodes",
+      "critic_updates",
+      "actor_updates",
+      "wall_seconds",
+      "peak_gpu_memory",
+      "per_task_success_rates"
+    ]
+  },
+  "decision_rule": {
+    "validation_selection": "Highest 10-task macro success; ties use fewer paired regressions, then fewer steps on jointly successful episodes; base VLA remains a valid deployment choice",
+    "test_count_per_policy": 100,
+    "paired_win": "optimized succeeds and base fails on identical task, initial state and evaluation seed",
+    "paired_loss": "base succeeds and optimized fails on identical task, initial state and evaluation seed",
+    "point_estimate_improvement": "paired_wins > paired_losses",
+    "uncertainty": "Report paired success-rate difference with task-stratified bootstrap interval and exact McNemar/binomial discordant-pair test; state the fixed-task/finite-state sampling limitation",
+    "stronger_evidence": "Positive locked-test difference with an uncertainty interval excluding zero and consistent independent-training-seed results",
+    "step_comparison_population": "paired episodes where both policies succeed",
+    "test_reuse": "Do not tune on locked-test results; if test outcomes guide new changes, reclassify it as development data and obtain a new test set"
+  }
+}

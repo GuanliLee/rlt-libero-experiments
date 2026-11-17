@@ -1,0 +1,110 @@
+{
+  "checks": [
+    "optimization_frozen_eval_check_20260908: embedded JSON, node syntax, all video paths, complete task table, N=1 guard",
+    "optimization_pilot_20260908_beta3: embedded JSON, node syntax, all video paths, complete task table, N=1 guard",
+    "blend names, custom output relative URLs, test label, paired wins/losses, exact McNemar, seeded 10000-sample bootstrap",
+    "duplicate episode rejection",
+    "HTTP full GET, HEAD, byte/open/suffix/clamped Range, HEAD Range, 416, /results alias, index/redirect, path/symlink rejection, read-only methods",
+    "JS DOM runtime: defaults, complete task table, task/initial/seed, arbitrary policy choices, swap, win/loss quick links, play/pause/seek/restart/rate/hash; media decoding not tested",
+    "Metadata-load race: playback remains disabled until both available video metadata are ready",
+    "Partial blend policy_plan preserves future strategies and N=0",
+    "Occupied port fails without stopping existing listener"
+  ],
+  "long_running_server_started": false,
+  "gpu_imports": false,
+  "expanded_validation": {
+    "episodes": 60,
+    "video_files": 60,
+    "ffprobe_h264_frame_counts_match_action_steps": true,
+    "fps": [
+      "10/1"
+    ],
+    "comparisons": {
+      "bc_only": {
+        "policy": "bc_only",
+        "baseline": "baseline",
+        "pairs": 20,
+        "candidate_only": 1,
+        "baseline_only": 0,
+        "both_success": 14,
+        "both_fail": 5,
+        "unpaired_candidate": 0,
+        "unpaired_baseline": 0,
+        "micro_success_rate_delta_percentage_points": 5.0,
+        "macro_success_rate_delta_percentage_points": 5.0,
+        "exact_mcnemar_two_sided_p": 1.0,
+        "joint_success_mean_steps_delta": -1.5714285714285714,
+        "joint_success_pairs": 14,
+        "bootstrap": {
+          "method": "paired_initial_state_resampling_within_fixed_tasks",
+          "estimand": "macro_success_rate_delta_percentage_points",
+          "repetitions": 10000,
+          "seed": 42,
+          "ci_95_percentage_points": [
+            0.0,
+            10.0
+          ],
+          "initial_states_per_task": {
+            "0": 2,
+            "1": 2,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "reason": "固定当前任务，在各任务内有放回重采样配对初态；不覆盖训练种子或模型选择的不确定性。"
+        }
+      },
+      "candidate": {
+        "policy": "candidate",
+        "baseline": "baseline",
+        "pairs": 20,
+        "candidate_only": 1,
+        "baseline_only": 2,
+        "both_success": 12,
+        "both_fail": 5,
+        "unpaired_candidate": 0,
+        "unpaired_baseline": 0,
+        "micro_success_rate_delta_percentage_points": -5.0,
+        "macro_success_rate_delta_percentage_points": -5.0,
+        "exact_mcnemar_two_sided_p": 1.0,
+        "joint_success_mean_steps_delta": -1.4166666666666667,
+        "joint_success_pairs": 12,
+        "bootstrap": {
+          "method": "paired_initial_state_resampling_within_fixed_tasks",
+          "estimand": "macro_success_rate_delta_percentage_points",
+          "repetitions": 10000,
+          "seed": 42,
+          "ci_95_percentage_points": [
+            -20.0,
+            10.0
+          ],
+          "initial_states_per_task": {
+            "0": 2,
+            "1": 2,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "reason": "固定当前任务，在各任务内有放回重采样配对初态；不覆盖训练种子或模型选择的不确定性。"
+        }
+      }
+    }
+  },
+  "validated_at": "2026-09-08T08:38:20.087926+00:00",
+  "script_sha256": {
+    "scripts/build_optimization_viewer.py": "d264b20a84e3804c24a40658943ca2420649b3fa7bbd5e1d61f45e94a0557086",
+    "scripts/serve_optimization_results.py": "4b5643e8589007a54ed81c7a758422bc28e86e88b39d1f386949f5079c11f43c"
+  },
+  "independent_review": "Metadata readiness race fixed and verified; generic BC controls wording corrected for v1/v2; no remaining important finding.",
+  "browser_screenshot_or_real_decoder_test": false
+}
